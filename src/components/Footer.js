@@ -7,10 +7,6 @@ const Footer = () => {
     <div>
       <div className="grid grid-cols-2">
         <div className="p-6 flex flex-row items-start">
-          {/* <p className="p-6 text-sm font-semibold text-center">
-              Made in Providence with{" "}
-              <FontAwesomeIcon icon={faHeart} size="sm" color="red" />
-            </p> */}
           <a
             href="https://www.linkedin.com/company/sbudnic/"
             target="_blank"

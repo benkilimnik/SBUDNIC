@@ -1,37 +1,34 @@
 import React from "react"
-import About from "./About"
-import Features from "./Features"
 import Footer from "../Footer"
-import Numbers from "./Numbers"
 import { Link } from "react-router-dom"
-import { sbudnic, space, space2, space3 } from "../images"
+import { space3 } from "../../assets/images"
 import Countdown, { calcTimeDelta } from "react-countdown";
 
 const renderer = ({ days, hours, minutes, seconds, completed}) => {
   return (
       <div className="text-gray-500 flex flex-col items-center lg:items-start">
-        <div class="py-8 md:py-12 grid grid-flow-col gap-5 place-items-end auto-cols-max">
+        <div className="py-8 md:py-12 grid grid-flow-col gap-5 place-items-end auto-cols-max">
         <span className="text-2xl">Launch in:</span>
           <div>
-            <span class="text-2xl pr-1">
+            <span className="text-2xl pr-1">
               <span>{days}</span>
             </span>
             days
           </div>
           <div>
-            <span class="text-2xl px-1">
+            <span className="text-2xl px-1">
               <span>{hours}</span>
             </span>
             hours
           </div>
           <div>
-            <span class="text-2xl px-1">
+            <span className="text-2xl px-1">
               <span> { minutes }</span>
             </span>
             min
           </div>
           <div>
-            <span class="text-2xl px-1">
+            <span className="text-2xl px-1">
               <span>{seconds }</span>
             </span>
             sec
@@ -88,8 +85,6 @@ const Home = () => (
         />
       </div>
     </div>
-    {/* <Features /> */}
-    {/* <Numbers/> */}
     <Footer showNext={false} prevItem={"./"} nextItem={"./"} />
   </>
 )

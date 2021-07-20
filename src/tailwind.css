@@ -56,15 +56,6 @@
   }
 }
 
-.main_image {
-  grid-area: overflow;
-}
-
-.main_text {
-  grid-area: overflow;
-  margin: auto auto auto auto;
-}
-
 .main {
   display: grid;
   grid-template-columns: 1fr;

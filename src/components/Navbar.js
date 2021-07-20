@@ -26,9 +26,9 @@ export default function Navbar({ navItems }) {
                 className="inline-block w-6 h-6 stroke-current"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h16M4 18h16"
                 ></path>
               </svg>
@@ -43,10 +43,7 @@ export default function Navbar({ navItems }) {
           >
             <ul className="flex flex-col list-none md:flex-row md:ml-auto">
               {navItems.map((nav) => (
-                <li
-                  id={nav.id}
-                  // className="hover:text-blue-500"
-                >
+                <li key={nav.id} id={nav.id}>
                   <NavLink
                     className="btn btn-ghost btn-sm flex items-center px-4 py-2 leading-snug"
                     to={`${nav.navItem}`}

@@ -17,12 +17,10 @@ const navItems = [
 
 const App = () => (
   <BrowserRouter>
-    {/* <Navbar navItems={navItems} /> */}
     <Navbar navItems={navItems}/>
     {/* {allItems.map((item) => (
       <Route id={item.id} path={item.navLink} component={item.component} />
     ))} */}
-
     <Route exact path="/" component={Home} />
     <Route exact path="/home" component={Home} />
     <Route exact path="/about" component={About} />
