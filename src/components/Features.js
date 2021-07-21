@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import {features} from "../../assets/content/features"
+import {features} from "./content/features"
 
 class Features extends Component {
   componentDidMount() {

@@ -1,7 +1,7 @@
 import React from "react"
 import Footer from "../Footer"
 import ImageCard from "../ImageCard"
-import { team } from "../../assets/content/team"
+import { team } from "../content/team"
 
 export default function Team() {
   return (
