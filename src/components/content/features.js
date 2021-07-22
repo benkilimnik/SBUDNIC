@@ -7,25 +7,25 @@ import {
 
 const features = [
   {
-    name: "Competitive exchange rates",
+    name: "Step 1",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: GlobeAltIcon,
   },
   {
-    name: "No hidden fees",
+    name: "Step 2",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: ScaleIcon,
   },
   {
-    name: "Transfers are instant",
+    name: "Step 3",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: LightningBoltIcon,
   },
   {
-    name: "Mobile notifications",
+    name: "Step 4",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: AnnotationIcon,
