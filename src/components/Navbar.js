@@ -5,17 +5,17 @@ export default function Navbar({ navItems }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3 navbar-expand-md">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3 md:text-xl navbar-expand-md">
         <div className="container flex flex-wrap items-center justify-between px-1 mx-auto">
           <div className="relative flex justify-between w-full md:w-auto md:static md:block md:justify-start">
             <Link
-              className="hover:text-indigo-500 inline-block py-2 mr-4 leading-relaxed tracking-wider whitespace-no-wrap text-md"
+              className="inline-block py-2 mr-4 leading-relaxed tracking-wider whitespace-no-wrap hover:text-indigo-500 text-md"
               to="/"
             >
               SBUDNIC
             </Link>
             <button
-              className="btn btn-ghost block px-3 py-1 md:hidden"
+              className="block px-3 py-1 btn btn-ghost md:hidden"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -45,7 +45,7 @@ export default function Navbar({ navItems }) {
               {navItems.map((nav) => (
                 <li key={nav.id} id={nav.id}>
                   <NavLink
-                    className="btn btn-ghost btn-sm flex items-center px-4 py-2 leading-snug"
+                    className="flex items-center px-4 py-2 leading-snug btn btn-ghost btn-sm"
                     to={`${nav.navItem}`}
                   >
                     <span className="tracking-wider text-md">

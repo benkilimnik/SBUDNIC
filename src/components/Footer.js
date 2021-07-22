@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <div>
       <div className="grid grid-cols-2">
-        <div className="p-6 flex flex-row items-start">
+        <div className="flex flex-row items-start p-6">
           <a
             href="https://www.linkedin.com/company/sbudnic/"
             target="_blank"
             rel="noreferrer"
             className="px-3 transition duration-500 ease-out transform opacity-50 hover:scale-110 hover:opacity-100"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+            <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
           </a>
           <a
             href="https://twitter.com/SbudnicS"
@@ -21,10 +21,10 @@ const Footer = () => {
             rel="noreferrer"
             className="px-3 transition duration-500 ease-out transform opacity-50 hover:scale-110 hover:opacity-100"
           >
-            <FontAwesomeIcon icon={faTwitter} size="lg" />
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
         </div>
-        <div className="flex flex-col items-end p-6 text-sm font-semibold">
+        <div className="flex flex-col items-end p-6 text-sm font-semibold md:text-xl">
           © {new Date().getFullYear()}
         </div>
       </div>
