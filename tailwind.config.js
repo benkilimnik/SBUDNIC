@@ -8,29 +8,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        // primary: "#FF6363",
-        primary: "#F50000",
-        secondary: {
-          100: "#E2E2D5",
-          200: "#888883",
-        },
-      },
+      colors: {},
       fontFamily: {
         body: ["Nunito"],
       },
     },
   },
-  variants: {
-    textColor: ["responsive", "hover", "focus", "group-hover"],
-    backgroundColor: ["responsive", "hover", "focus", "active"],
-    background: ["responsive", "hover", "focus", "active"],
-    textColor: ["responsive", "hover", "focus", "active"],
-    visibility: ["responsive", "hover", "focus", "active", "group-hover"],
-    display: ["responsive", "hover", "focus", "active", "group-hover"],
-  },
+  variants: {},
   plugins: [
-    require("daisyui"),
     require('@tailwindcss/typography'),
   ],
 }

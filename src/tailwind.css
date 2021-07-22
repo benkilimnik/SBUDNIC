@@ -53,6 +53,9 @@
   .active {
     /* color: #DA3832; */
     @apply text-indigo-500;
+    /* text-decoration: underline; */
+      border-bottom: 1px solid #453886;
+      padding-bottom: 0.25em;
   }
 }
 
