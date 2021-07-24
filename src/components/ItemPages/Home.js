@@ -40,7 +40,7 @@ const renderer = ({ days, hours, minutes, seconds, completed}) => {
 
 const Home = () => (
   <>
-    <div className="grid h-screen grid-cols-1 p-14 lg:grid-cols-2">
+    <div className="grid grid-cols-1 p-14 lg:grid-cols-2">
       {/* <div className="relative h-screen overflow-hidden">
         <div className="mx-auto max-w-7xl"> */}
           {/* <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"> */}

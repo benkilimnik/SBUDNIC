@@ -1,5 +1,5 @@
 import React from "react"
-import { NavLink } from "react-router-dom"
+// import { NavLink } from "react-router-dom"
 
 const ImageCard = ({ item }) => {
   return (
@@ -8,7 +8,7 @@ const ImageCard = ({ item }) => {
       className="max-w-sm mb-8 overflow-hidden border-2 border-gray-100 rounded-2xl hover:shadow-lg hover:bg-white"
       style={{ transition: "all .3s ease" }}
     >
-      <NavLink to={""}>
+      {/* <NavLink to={""}> */}
         <div className="group main">
           <img
             src={item.image}
@@ -22,7 +22,7 @@ const ImageCard = ({ item }) => {
             </div>
             <ul>
               <li>
-                <p className="semibold text-black">{item.subtitle}</p>
+                <p className="text-black semibold">{item.subtitle}</p>
               </li>
             </ul>
           </div>
@@ -35,7 +35,7 @@ const ImageCard = ({ item }) => {
             ))}
           </div>
         </div>
-      </NavLink>
+      {/* </NavLink> */}
     </div>
   )
 }
