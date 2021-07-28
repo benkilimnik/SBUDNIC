@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       colors: {},
       fontFamily: {
+        // body: ["Lato"],
         body: ["Nunito"],
       },
     },
