@@ -1,4 +1,5 @@
-import { sbudnic, space3, rick, dheraj, daniel, marco } from "../content/images"
+// import { sbudnic, space3, rick, dheraj, daniel, marco } from "../content/images"
+import {  space3 } from "../content/images"
 
 const team = [
   {

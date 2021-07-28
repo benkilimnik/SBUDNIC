@@ -1,12 +1,12 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faLinkedinIn,
-  faTwitter,
-  faInstagramSquare,
+  // faLinkedinIn,
+  // faTwitter,
+  // faInstagramSquare,
   faSkyatlas,
 } from "@fortawesome/free-brands-svg-icons"
-import { space3 } from "./content/images"
+// import { space3 } from "./content/images"
 
 const Footer = () => {
   return (
@@ -45,7 +45,7 @@ const Footer = () => {
 
       <footer class="text-gray-600 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a href="test" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <FontAwesomeIcon icon={faSkyatlas} size="lg" />
             {/* <img
             className="w-1/12"

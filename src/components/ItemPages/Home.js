@@ -1,42 +1,42 @@
 import React from "react"
 import Footer from "../Footer"
 import { Link } from "react-router-dom"
-import { space3, sbudnic } from "../content/images"
-import Countdown, { calcTimeDelta } from "react-countdown"
+import { space3 } from "../content/images"
+// import Countdown, { calcTimeDelta } from "react-countdown"
 
-const renderer = ({ days, hours, minutes, seconds, completed }) => {
-  return (
-    <div className="flex flex-col items-center lg:items-start">
-      <div className="grid grid-flow-col gap-5 pb-8 place-items-end auto-cols-max">
-        <span className="text-xl md:text-3xl">Launch in:</span>
-        <div className="md:text-xl">
-          <span className="pr-1 text-xl md:text-3xl">
-            <span>{days}</span>
-          </span>
-          days
-        </div>
-        <div className="md:text-xl">
-          <span className="px-1 text-xl md:text-3xl">
-            <span>{hours}</span>
-          </span>
-          hours
-        </div>
-        <div className="md:text-xl">
-          <span className="px-1 text-xl md:text-3xl">
-            <span> {minutes}</span>
-          </span>
-          min
-        </div>
-        <div className="md:text-xl">
-          <span className="px-1 text-xl md:text-3xl">
-            <span>{seconds}</span>
-          </span>
-          sec
-        </div>
-      </div>
-    </div>
-  )
-}
+// const renderer = ({ days, hours, minutes, seconds, completed }) => {
+//   return (
+//     <div className="flex flex-col items-center lg:items-start">
+//       <div className="grid grid-flow-col gap-5 pb-8 place-items-end auto-cols-max">
+//         <span className="text-xl md:text-3xl">Launch in:</span>
+//         <div className="md:text-xl">
+//           <span className="pr-1 text-xl md:text-3xl">
+//             <span>{days}</span>
+//           </span>
+//           days
+//         </div>
+//         <div className="md:text-xl">
+//           <span className="px-1 text-xl md:text-3xl">
+//             <span>{hours}</span>
+//           </span>
+//           hours
+//         </div>
+//         <div className="md:text-xl">
+//           <span className="px-1 text-xl md:text-3xl">
+//             <span> {minutes}</span>
+//           </span>
+//           min
+//         </div>
+//         <div className="md:text-xl">
+//           <span className="px-1 text-xl md:text-3xl">
+//             <span>{seconds}</span>
+//           </span>
+//           sec
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
 
 const Home = () => (
   <>
