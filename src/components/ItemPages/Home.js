@@ -1,7 +1,7 @@
 import React from "react"
 import Footer from "../Footer"
 import { Link } from "react-router-dom"
-import { space3, sbudnic } from "../content/images"
+import { space3 } from "../content/images"
 import Countdown, { calcTimeDelta } from "react-countdown"
 
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
