@@ -2,48 +2,48 @@ import React from "react"
 import Footer from "../Footer"
 import { Link } from "react-router-dom"
 import { space3 } from "../content/images"
-// import Countdown, { calcTimeDelta } from "react-countdown"
+import Countdown, { calcTimeDelta } from "react-countdown"
 
-// const renderer = ({ days, hours, minutes, seconds, completed }) => {
-//   return (
-//     <div className="flex flex-col items-center lg:items-start">
-//       <div className="grid grid-flow-col gap-5 pb-8 place-items-end auto-cols-max">
-//         <span className="text-xl md:text-3xl">Launch in:</span>
-//         <div className="md:text-xl">
-//           <span className="pr-1 text-xl md:text-3xl">
-//             <span>{days}</span>
-//           </span>
-//           days
-//         </div>
-//         <div className="md:text-xl">
-//           <span className="px-1 text-xl md:text-3xl">
-//             <span>{hours}</span>
-//           </span>
-//           hours
-//         </div>
-//         <div className="md:text-xl">
-//           <span className="px-1 text-xl md:text-3xl">
-//             <span> {minutes}</span>
-//           </span>
-//           min
-//         </div>
-//         <div className="md:text-xl">
-//           <span className="px-1 text-xl md:text-3xl">
-//             <span>{seconds}</span>
-//           </span>
-//           sec
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
+const renderer = ({ days, hours, minutes, seconds, completed }) => {
+  return (
+    <div className="flex flex-col items-center lg:items-start">
+      <div className="grid grid-flow-col gap-5 pb-8 place-items-end auto-cols-max">
+        <span className="text-xl md:text-2xl">Launch in:</span>
+        <div className="md:text-xl">
+          <span className="pr-1 text-xl md:text-2xl">
+            <span>{days}</span>
+          </span>
+          days
+        </div>
+        <div className="md:text-xl">
+          <span className="px-1 text-xl md:text-2xl">
+            <span>{hours}</span>
+          </span>
+          hours
+        </div>
+        <div className="md:text-xl">
+          <span className="px-1 text-xl md:text-2xl">
+            <span> {minutes}</span>
+          </span>
+          min
+        </div>
+        <div className="md:text-xl">
+          <span className="px-1 text-xl md:text-2xl">
+            <span>{seconds}</span>
+          </span>
+          sec
+        </div>
+      </div>
+    </div>
+  )
+}
 
 const Home = () => (
   <>
     <section class="text-gray-600 body-font">
       <div class="container mx-auto flex px-5 py-8 items-center justify-center flex-col">
         <img
-          class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+          class="lg:w-3/12 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
           alt="hero"
           // src="https://dummyimage.com/720x600"
           src={space3}
@@ -56,12 +56,12 @@ const Home = () => (
           <p class="mb-8 text-lg leading-relaxed">
           SBUDNIC is a group of Brown students developing a cube satellite for launch using only terrestrial parts like Arduino Uno. We plan to make all of our designs open-source. SBUDNIC emerged from Rick Fleeter’s “Design of Space Systems” class, ENGN1760.
           </p>
-          {/* <div className="flex justify-center">
+          <div className="flex justify-center">
             <Countdown
               date={Date.now() + calcTimeDelta("2021-11-01T00:00:00").total}
               renderer={renderer}
             />
-          </div> */}
+          </div>
           <div class="flex justify-center">
             <Link to="/about" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
               Learn More
