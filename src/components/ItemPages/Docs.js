@@ -1,6 +1,4 @@
 import React from "react"
-import Footer from "../Footer"
-
 
 const Docs = () => (
   <div>
@@ -121,7 +119,7 @@ const Docs = () => (
       </div>
     </section>
     {/* </div> */}
-    <Footer />
+    {/* <Footer /> */}
   </div>
 )
 
