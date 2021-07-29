@@ -1,4 +1,5 @@
-import { space3, rick, dheraj, daniel, marco } from "../content/images"
+// import { space3, rick, dheraj, daniel, marco, filip, gabrielle, maddie } from "../content/images"
+import { rick, dheraj, daniel, marco } from "../content/images"
 // import {  space3 } from "../content/images"
 
 const team = [
@@ -27,25 +28,25 @@ const team = [
   {
     id: 4,
     title: "Daniel",
-    subtitle: "My super interesting bio about me, myself, and I",
+    subtitle: "Bio here",
     category: "Thermal4, Communications4",
     image: daniel,
   },
 
-  {
-    id: 5,
-    title: "Duncan",
-    subtitle: "My super interesting bio about me, myself, and I",
-    category: "Thermal5, Communications5",
-    image: space3,
-  },
-  {
-    id: 6,
-    title: "Person",
-    subtitle: "My super interesting bio about me, myself, and I",
-    category: "Thermal6, Communications6",
-    image: space3,
-  },
+  // {
+  //   id: 5,
+  //   title: "Duncan",
+  //   subtitle: "My super interesting bio about me, myself, and I",
+  //   category: "Thermal5, Communications5",
+  //   image: space3,
+  // },
+  // {
+  //   id: 6,
+  //   title: "Person",
+  //   subtitle: "My super interesting bio about me, myself, and I",
+  //   category: "Thermal6, Communications6",
+  //   image: space3,
+  // },
 ]
 
 export { team }

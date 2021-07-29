@@ -6,6 +6,9 @@ import dheraj from "../../assets/dheraj.jpg"
 import daniel from "../../assets/daniel.jpg"
 import marco from "../../assets/marco.jpeg"
 import rick from "../../assets/rick.jpg"
+import filip from "../../assets/filip.jpeg"
+import haley from "../../assets/haley.jpg"
+import maddie from "../../assets/maddie.jpg"
 
 export {
   sbudnic,
@@ -16,4 +19,7 @@ export {
   daniel,
   marco,
   rick,
+  filip,
+  haley,
+  maddie,
 }
