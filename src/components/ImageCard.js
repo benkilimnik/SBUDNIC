@@ -35,7 +35,7 @@ const ImageCard = ({ item }) => {
         </div>
       </div> */}
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={item.image}/>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-10/12 h-72 object-cover object-center mb-4" src={item.image}/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-gray-900">{item.title}</h2>
             <h3 class="text-gray-500 mb-3">{item.category}</h3>

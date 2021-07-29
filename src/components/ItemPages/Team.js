@@ -25,7 +25,7 @@ export default function Team() {
               haven't heard of them.
             </p>
           </div>
-              <div className="grid grid-cols-1 gap-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-left">
+              <div className="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 justify-items-left">
                 {team.map((item) => (
                   <ImageCard key={item.id} item={item}></ImageCard>
                 ))}
