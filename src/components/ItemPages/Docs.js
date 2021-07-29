@@ -1,6 +1,7 @@
 import React from "react"
 import Footer from "../Footer"
 
+
 const Docs = () => (
   <div>
     {/* <div className="container flex flex-col items-center justify-center max-w-2xl py-6 mx-auto leading-7 text-left"> */}

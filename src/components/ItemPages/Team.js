@@ -6,6 +6,7 @@ import { team } from "../content/team"
 export default function Team() {
   return (
     <div>
+    
       {/* <div className="container flex flex-col items-center justify-center max-w-2xl py-6 mx-auto leading-7 text-left"> */}
         {/* <h1 className="py-12 text-4xl font-semibold "> Meet the Team</h1> */}
         {/* <article className="prose-2xl">
