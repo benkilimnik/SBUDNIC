@@ -9,6 +9,8 @@ import rick from "../../assets/rick.jpg"
 import filip from "../../assets/filip.jpeg"
 import haley from "../../assets/haley.jpg"
 import maddie from "../../assets/maddie.jpg"
+import benji from "../../assets/benji.jpg"
+import ashton from "../../assets/ashton.png"
 
 export {
   sbudnic,
@@ -22,4 +24,6 @@ export {
   filip,
   haley,
   maddie,
+  benji,
+  ashton,
 }

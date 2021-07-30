@@ -5,6 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
 * {
   animation: fadein 0.7s;
   -moz-animation: fadein 0.7s; /* Firefox */
