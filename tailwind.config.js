@@ -17,6 +17,7 @@ module.exports = {
       colors: {},
       fontFamily: {
         // body: ["Lato"],
+        // body: ["Titillium+Web"],
         body: ["Nunito"],
       },
     },
