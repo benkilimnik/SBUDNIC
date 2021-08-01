@@ -6,6 +6,8 @@ import sbudnic5 from "../../assets/sbudnic5.png"
 import sbudnic6 from "../../assets/sbudnic6.png"
 import sbudnic7 from "../../assets/sbudnic7.png"
 import sbudnic8 from "../../assets/sbudnic8.png"
+import sbudnic9 from "../../assets/sbudnic9.png"
+import sbudnic10 from "../../assets/sbudnic10.png"
 import space from "../../assets/space.jpeg"
 import space2 from "../../assets/space2.png"
 import space3 from "../../assets/space3.png"
@@ -36,6 +38,8 @@ export {
   sbudnic6,
   sbudnic7,
   sbudnic8,
+  sbudnic9,
+  sbudnic10,
   about0,
   about1,
   about2,

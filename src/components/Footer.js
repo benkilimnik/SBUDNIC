@@ -8,6 +8,7 @@ import {
   // faSkyatlas,
 } from "@fortawesome/free-brands-svg-icons"
 import { sbudnic4 } from "./content/images"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -46,8 +47,8 @@ const Footer = () => {
 
       <footer class="text-gray-600 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a
-            href="/"
+          <Link
+          to="/"
             class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
           >
            <img
@@ -75,7 +76,7 @@ const Footer = () => {
             </svg> */}
 
             {/* <span class="ml-3 text-xl">SBUDNIC</span> */}
-          </a>
+          </Link>
           <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © {new Date().getFullYear()} —
             <a
@@ -111,6 +112,8 @@ const Footer = () => {
             <a
               href="https://twitter.com/SbudnicS"
               className="ml-3 text-black transition duration-500 ease-out transform opacity-50 hover:scale-110 hover:opacity-100"
+              rel="noreferrer"
+              target="_blank"
             >
               <svg
                 fill="currentColor"
@@ -126,6 +129,8 @@ const Footer = () => {
             <a
               href="https://instagram.com/sbudnics"
               className="ml-3 text-black transition duration-500 ease-out transform opacity-50 hover:scale-110 hover:opacity-100"
+              rel="noreferrer"
+              target="_blank"
             >
               {" "}
               <svg
@@ -144,6 +149,8 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/company/sbudnic/"
               className="ml-3 text-black transition duration-500 ease-out transform opacity-50 hover:scale-110 hover:opacity-100"
+              rel="noreferrer"
+              target="_blank"
             >
               {" "}
               <svg
@@ -165,6 +172,8 @@ const Footer = () => {
             <a
               href="https://github.com/benkilimnik/SBUDNIC"
               className="ml-3 text-black transition duration-500 ease-out transform opacity-50 hover:scale-110 hover:opacity-100"
+              rel="noreferrer"
+              target="_blank"
             >
               <FontAwesomeIcon icon={faGithub} size="lg" />
             </a>

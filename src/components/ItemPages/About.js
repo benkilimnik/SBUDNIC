@@ -17,10 +17,16 @@ const Home = () => (
             Design Overview
             </h1>
             <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-              SBUDNIC is a group of Brown University students developing a cube satellite
-              for launch using only terrestrial parts like Arduino Uno. We plan
-              to make all of our designs open-source. SBUDNIC emerged from Rick
-              Fleeter’s “Design of Space Systems” class, ENGN1760.
+            SBUDNIC is
+            a <span className="text-indigo-500">S</span>putnik-like 3U cubesat
+            by <span className="text-indigo-500">B</span>rown{" "}
+            <span className="text-indigo-500">U</span>niversity,{" "}
+            <span className="text-indigo-500">D</span>-Orbit, and{" "}
+            <span className="text-indigo-500">C</span>NR.
+            Our team is divided into various subsystems responsible for different parts
+            of the satellite, including Structure (STR), the Thermal Control System (TCS), Tracking, Telemetry and Control (TTC),
+            Electrical Power System (EPS), Onboard Data Handling (OBDH), Payload (PL), Space Telecommunications Radio System (STR), and the
+            Altitude and Orbit Control System (AOCS).
             </p>
           </div>
         </div>
@@ -33,7 +39,7 @@ const Home = () => (
                 alt="content"
               />
               <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                asdfsdf
+                STR
               </h3>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                 Structure
@@ -56,7 +62,7 @@ const Home = () => (
                 alt="content"
               />
               <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
+                OBDH
               </h3>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                 Onboard Data Handling
@@ -78,7 +84,7 @@ const Home = () => (
                 alt="content"
               />
               <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
+                AOCS
               </h3>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                 Altitude and Orbit Control System
@@ -102,7 +108,7 @@ const Home = () => (
                 alt="content"
               />
               <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                SUBTITLE
+                TTC
               </h3>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                 Tracking, Telemetry and Control
