@@ -11,11 +11,17 @@
   overflow: hidden;
 }
 
+.modal {
+  animation: fadein 0.2s;
+  -moz-animation: fadein 0.2s; /* Firefox */
+  -webkit-animation: fadein 0.2s; /* Safari and Chrome */
+  -o-animation: fadein 0.2s; /* Opera */
+}
 * {
-  animation: fadein 0.7s;
-  -moz-animation: fadein 0.7s; /* Firefox */
-  -webkit-animation: fadein 0.7s; /* Safari and Chrome */
-  -o-animation: fadein 0.7s; /* Opera */
+  animation: fadein 0.4s;
+  -moz-animation: fadein 0.4s; /* Firefox */
+  -webkit-animation: fadein 0.4s; /* Safari and Chrome */
+  -o-animation: fadein 0.4s; /* Opera */
 }
 @keyframes fadein {
   from {
