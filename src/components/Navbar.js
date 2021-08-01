@@ -1,17 +1,23 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom"
+// import { sbudnic4 } from "./content/images"
 
 export default function Navbar({ navItems }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3 md:text-xl navbar-expand-md">
-        <div className="container flex flex-wrap items-center justify-between px-1 mx-auto">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3 md:text-lg navbar-expand-md">
+        <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
           <div className="relative flex justify-between w-full md:w-auto md:static md:block md:justify-start">
             <Link
               className="inline-block py-2 mr-4 leading-relaxed tracking-wider whitespace-no-wrap hover:text-indigo-500 text-md"
               to="/"
             >
+               {/* <img
+              class="h-10 object-cover object-center rounded"
+              alt="hero"
+              src={sbudnic4}
+            /> */}
               SBUDNIC
             </Link>
             <button
