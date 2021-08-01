@@ -39,10 +39,10 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 const Numbers = () => {
   return (
     <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="container px-5 sm:py-12 lg:py-24 mx-auto flex flex-wrap">
         <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
           <div class="w-full sm:p-4 px-4 mb-6">
-            <div className="py-4 text-gray-900 uppercase">
+            <div className="invisible py-4 text-gray-900 uppercase lg:visible">
               <Countdown
                 date={Date.now() + calcTimeDelta("2021-11-01T00:00:00").total}
                 renderer={renderer}
