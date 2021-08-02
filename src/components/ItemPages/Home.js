@@ -58,7 +58,7 @@ const Home = () => (
       <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-6/12 xl:pr-72 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="lg:pb-8 title-font font-bold lg:text-5xl md:leading-tight lg:leading-snug sm:text-4xl text-3xl mb-4 text-gray-900">
-            We're building a CubeSat in record time
+            We're building the World's First Open Source Satellite - in Record Time
           </h1>
 
           <div className="hidden 2xl:grid 2xl:items-center 2xl:grid-cols-4 2xl:pb-12 2xl:align-center">
