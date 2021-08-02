@@ -1,40 +1,5 @@
 import React from "react"
 import { about0 } from "./content/images"
-import Countdown, { calcTimeDelta } from "react-countdown"
-
-const renderer = ({ days, hours, minutes, seconds, completed }) => {
-  return (
-    <div className="flex flex-col items-center text-indigo-500 lg:items-start">
-      <div className="grid grid-flow-col gap-5 pb-8 place-items-end auto-cols-max">
-        <span className="text-xl md:text-2xl ">Launch in:</span>
-        <div className="md:text-sm">
-          <span className="pr-1 text-xl md:text-2xl">
-            <span>{days}</span>
-          </span>
-          days
-        </div>
-        <div className="md:text-sm">
-          <span className="px-1 text-xl md:text-2xl">
-            <span>{hours}</span>
-          </span>
-          hours
-        </div>
-        <div className="md:text-sm">
-          <span className="px-1 text-xl md:text-2xl">
-            <span> {minutes}</span>
-          </span>
-          min
-        </div>
-        <div className="md:text-sm">
-          <span className="px-1 text-xl md:text-2xl">
-            <span>{seconds}</span>
-          </span>
-          sec
-        </div>
-      </div>
-    </div>
-  )
-}
 
 const Numbers = () => {
   return (
@@ -42,15 +7,10 @@ const Numbers = () => {
       <div class="container px-5 sm:py-12 lg:py-24 mx-auto flex flex-wrap">
         <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
           <div class="w-full sm:p-4 px-4 mb-6">
-            <div className="invisible py-4 text-gray-900 uppercase lg:visible">
-              <Countdown
-                date={Date.now() + calcTimeDelta("2021-11-01T00:00:00").total}
-                renderer={renderer}
-              />
-            </div>
             <h1 class="title-font font-medium text-xl mb-2 text-gray-900">
               Stay in the loop
             </h1>
+
             <div class="leading-relaxed">
               Follow us on Twitter, Instagram, and LinkedIn.
             </div>

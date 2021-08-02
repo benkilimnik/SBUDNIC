@@ -28,8 +28,10 @@ import about3 from "../../assets/about3.png"
 import about4 from "../../assets/about4.png"
 import about5 from "../../assets/about5.jpeg"
 import about6 from "../../assets/about6.jpeg"
+import rotearth from "../../assets/rotearth.gif"
 
 export {
+  rotearth,
   sbudnic,
   sbudnic2,
   sbudnic3,

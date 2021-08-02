@@ -2,7 +2,7 @@ import React from "react"
 import Footer from "../Footer"
 import { Link } from "react-router-dom"
 import {
-  // space3,
+  space3,
   // eureka1,
   // sbudnic,
   // sbudnic2,
@@ -11,10 +11,46 @@ import {
   // sbudnic5,
   // sbudnic6,
   sbudnic7,
+  rotearth,
   // sbudnic8,
   // sbudnic9,
   // sbudnic10,
 } from "../content/images"
+import Countdown, { calcTimeDelta } from "react-countdown"
+
+const renderer = ({ days, hours, minutes, seconds, completed }) => {
+  return (
+    <div className="flex flex-col items-center text-indigo-500 lg:items-start">
+      <div className="grid grid-flow-col gap-5 pb-8 place-items-end auto-cols-max">
+        <span className="text-xl md:text-2xl ">Launch in:</span>
+        <div className="md:text-md">
+          <span className="pr-1 text-xl md:text-2xl">
+            <span>{days}</span>
+          </span>
+          days
+        </div>
+        <div className="md:text-md">
+          <span className="px-1 text-xl md:text-2xl">
+            <span>{hours}</span>
+          </span>
+          hours
+        </div>
+        <div className="md:text-md">
+          <span className="px-1 text-xl md:text-2xl">
+            <span> {minutes}</span>
+          </span>
+          min
+        </div>
+        <div className="md:text-md">
+          <span className="px-1 text-xl md:text-2xl">
+            <span>{seconds}</span>
+          </span>
+          sec
+        </div>
+      </div>
+    </div>
+  )
+}
 
 const Home = () => (
   <>
@@ -24,6 +60,7 @@ const Home = () => (
           <h1 class="lg:pb-8 title-font font-bold lg:text-5xl md:leading-tight lg:leading-snug sm:text-4xl text-3xl mb-4 text-gray-900">
             We're building a CubeSat in record time
           </h1>
+
           <div className="hidden 2xl:grid 2xl:items-center 2xl:grid-cols-4 2xl:pb-12 2xl:align-center">
             <div class="pr-12">
               <h2 class="title-font font-medium text-3xl text-gray-900">
@@ -46,11 +83,18 @@ const Home = () => (
               <p class="leading-relaxed">3U CubeSat</p>
             </div>
           </div>
-          <p class="mb-12 lg:text-xl lg:leading-relaxed">
-            A small group of Brown University students testing the limits of how quickly and efficiently a 3U CubeSat can
-            be developed.
-            Supported by D-Orbit and the National Research Council of Italy (CNR).
+
+          <p class="mb-6 lg:text-xl lg:leading-relaxed">
+            A small group of Brown University students testing the limits of how
+            quickly and efficiently a 3U CubeSat can be developed. Supported by
+            D-Orbit and the National Research Council of Italy (CNR).
           </p>
+          <div className="invisible py-4 text-gray-900 lg:visible">
+            <Countdown
+              date={Date.now() + calcTimeDelta("2021-11-01T00:00:00").total}
+              renderer={renderer}
+            />
+          </div>
           <div class="flex justify-center">
             <Link
               to="/about"
@@ -71,7 +115,7 @@ const Home = () => (
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src={sbudnic7}
+            src={space3}
           />
         </div>
       </div>
