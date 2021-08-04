@@ -55,20 +55,20 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 const Home = () => (
   <>
     <section class="text-gray-600 body-font">
-      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div class="lg:flex-grow md:w-6/12 xl:pr-72 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 class="lg:pb-8 title-font font-bold lg:text-5xl md:leading-tight lg:leading-snug sm:text-4xl text-3xl mb-4 text-gray-900">
+      <div class="container mx-auto flex px-5 py-12 sm:py-24 md:flex-row flex-col items-center">
+        <div class="w-11/12 sm:w-full lg:flex-grow md:w-6/12 xl:pr-72 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 class="lg:pb-8 title-font font-bold lg:text-5xl md:leading-tight lg:leading-snug sm:text-4xl text-3xl mb-8 sm:mb-4 text-gray-900">
           We're building a Sputnik-like CubeSat on a budget in record time
           </h1>
 
-          <div className="hidden 2xl:grid 2xl:items-center 2xl:grid-cols-4 2xl:pb-12 2xl:align-center">
-            <div class="pr-12">
+          <div className="invisible hidden 2xl:visible 2xl:grid 2xl:items-center 2xl:grid-cols-4 2xl:pb-12 2xl:align-center">
+            <div class="2xl:pr-12">
               <h2 class="title-font font-medium text-3xl text-gray-900">
                 1 Year
               </h2>
               <p class="leading-relaxed">Timeframe</p>
             </div>
-            <div class="pr-12">
+            <div class="2xl:pr-12">
               <h2 class="title-font font-medium text-3xl text-gray-900">
                 $10K
               </h2>
@@ -84,7 +84,7 @@ const Home = () => (
             </div>
           </div>
 
-          <p class="mb-6 lg:text-xl lg:leading-relaxed">
+          <p class="sm:mb-6 lg:text-xl lg:leading-relaxed">
             A small group of Brown University students testing the limits of how
             quickly and efficiently a 3U CubeSat can be developed. Supported by
             D-Orbit and the National Research Council of Italy (CNR).
