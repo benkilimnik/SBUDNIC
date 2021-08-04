@@ -14,19 +14,20 @@ const Home = () => (
           </div>
           <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
             <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">
-            Design Overview
+              Design Overview
             </h1>
             <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-            SBUDNIC is
-            a <span className="text-indigo-500">S</span>putnik-like 3U cubesat
-            by <span className="text-indigo-500">B</span>rown{" "}
-            <span className="text-indigo-500">U</span>niversity,{" "}
-            <span className="text-indigo-500">D</span>-Orbit, and{" "}
-            <span className="text-indigo-500">C</span>NR.
-            Our team is divided into various subsystems responsible for different parts
-            of the satellite, including Structure (STR), the Thermal Control System (TCS), Tracking, Telemetry and Control (TTC),
-            Electrical Power System (EPS), Onboard Data Handling (OBDH), Payload (PL), Space Telecommunications Radio System (STR), and the
-            Altitude and Orbit Control System (AOCS).
+              SBUDNIC is a <span className="text-indigo-500">S</span>putnik-like
+              3U cubesat by <span className="text-indigo-500">B</span>rown{" "}
+              <span className="text-indigo-500">U</span>niversity,{" "}
+              <span className="text-indigo-500">D</span>-Orbit, and{" "}
+              <span className="text-indigo-500">C</span>NR. Our team is divided
+              into various subsystems responsible for different parts of the
+              satellite, including Structure (STR), the Thermal Control System
+              (TCS), Tracking, Telemetry and Control (TTC), Electrical Power
+              System (EPS), Onboard Data Handling (OBDH), Payload (PL), Space
+              Telecommunications Radio System (STR), and the Altitude and Orbit
+              Control System (AOCS).
             </p>
           </div>
         </div>
@@ -52,6 +53,25 @@ const Home = () => (
                 the structure team is concurrently pursuing the integration of
                 wooden components within the structure.
               </p>
+              <a
+                href="https://drive.google.com/file/d/1x4FcdKtLIiUYGH81jWcC8PWpFF-qoDEo/view?usp=sharing"
+                class="text-indigo-500 inline-flex items-center mt-3"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -74,6 +94,25 @@ const Home = () => (
                 will constantly verify computational accuracy against one
                 another.
               </p>
+              <a
+                href="https://drive.google.com/file/d/1w9RmT52blB5fRuY7TmT3oAtLQOQxwxKq/view?usp=sharing"
+                class="text-indigo-500 inline-flex items-center mt-3"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -98,6 +137,25 @@ const Home = () => (
                 of 10-6 Newtons) calculations demonstrate that this is enough
                 for successful stabilization. .
               </p>
+              <a
+                href="https://drive.google.com/file/d/1Hy3fGHrIObc0CyCTaFyTSMm8GrW6mX_U/view?usp=sharing"
+                class="text-indigo-500 inline-flex items-center mt-3"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -117,8 +175,27 @@ const Home = () => (
                 Radio communication will be achieved with a Ham radio-based
                 Arduino add-on like the Hamshield Mini shown to the right. A
                 long strand of nickel titanium wire will be used as the antenna.
-                This solution is well understood and was also used on EquiSat.
+                This solution is widely used among 3U CubeSats.
               </p>
+              <a
+                href="https://drive.google.com/file/d/1LXMkEq8CFGcs01GfqRn77i9wS1NV8CsF/view?usp=sharing"
+                class="text-indigo-500 inline-flex items-center mt-3"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
             </div>
           </div>
         </div>

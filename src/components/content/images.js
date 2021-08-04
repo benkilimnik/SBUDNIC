@@ -9,7 +9,6 @@ import sbudnic8 from "../../assets/sbudnic8.png"
 import sbudnic9 from "../../assets/sbudnic9.png"
 import sbudnic10 from "../../assets/sbudnic10.png"
 import space from "../../assets/space.jpeg"
-import space2 from "../../assets/space2.png"
 import space3 from "../../assets/space3.png"
 import dheraj from "../../assets/dheraj.jpg"
 import daniel from "../../assets/daniel.jpg"
@@ -20,6 +19,7 @@ import haley from "../../assets/haley.jpg"
 import maddie from "../../assets/maddie.jpg"
 import benji from "../../assets/benji.jpg"
 import ashton from "../../assets/ashton.png"
+import theo from "../../assets/theo.jpg"
 import eureka1 from "../../assets/eureka1.png"
 import about0 from "../../assets/about0.jpeg"
 import about1 from "../../assets/about1.png"
@@ -28,10 +28,13 @@ import about3 from "../../assets/about3.png"
 import about4 from "../../assets/about4.png"
 import about5 from "../../assets/about5.jpeg"
 import about6 from "../../assets/about6.jpeg"
-import rotearth from "../../assets/rotearth.gif"
+import sbudnicN from "../../assets/sbudnicN.png"
+import sbudnicNW from "../../assets/sbudnicNW.png"
 
 export {
-  rotearth,
+  theo,
+  sbudnicN,
+  sbudnicNW,
   sbudnic,
   sbudnic2,
   sbudnic3,
@@ -50,7 +53,6 @@ export {
   about5,
   about6,
   space,
-  space2,
   space3,
   dheraj,
   daniel,

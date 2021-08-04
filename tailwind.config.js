@@ -14,7 +14,10 @@ module.exports = {
         "screen/4": "calc(100vh / 4)",
         "screen/5": "calc(100vh / 5)",
       }),
-      colors: {},
+      colors: {
+        'primary': "#121B46",
+        'secondary': "#DA3832",
+      },
       fontFamily: {
         // body: ["Lato"],
         // body: ["Titillium+Web"],

@@ -6,7 +6,7 @@
 
 .line-clamp {
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;  
   overflow: hidden;
 }
@@ -17,8 +17,11 @@
   -webkit-animation: fadein 0.4s; /* Safari and Chrome */
   -o-animation: fadein 0.4s; /* Opera */
 }
+
 @keyframes fadein {
   from {
+
+
     opacity: 0;
   }
   to {
@@ -54,15 +57,15 @@
 }
 
 .underline {
-  @apply text-indigo-500;
+  @apply text-primary;
 }
 
 @media only screen and (min-width: 768px) {
   .active {
     /* color: #DA3832; */
-    @apply text-indigo-500;
+    @apply text-primary;
     /* text-decoration: underline; */
-      border-bottom: 1px solid #453886;
+      border-bottom: 1px solid #000000;
       padding-bottom: 0.25em;
   }
 }

@@ -3,7 +3,7 @@ import Footer from "../Footer"
 import Numbers from "../Numbers"
 
 const Home = () => (
-  <div className="h-screen">
+  <div>
     <Numbers />
     <Footer />
   </div>

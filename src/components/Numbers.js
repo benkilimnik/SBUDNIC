@@ -1,5 +1,7 @@
 import React from "react"
-import { about0 } from "./content/images"
+// import { about0 } from "./content/images"
+import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed"
+// import InstagramEmbed from "react-instagram-embed"
 
 const Numbers = () => {
   return (
@@ -14,6 +16,20 @@ const Numbers = () => {
             <div class="leading-relaxed">
               Follow us on Twitter, Instagram, and LinkedIn.
             </div>
+            {/* <InstagramEmbed
+              url="https://instagr.am/p/Zw9o4/"
+              clientAccessToken="123|456"
+              maxWidth={320}
+              hideCaption={false}
+              containerTagName="div"
+              protocol=""
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+            /> */}
+
             {/* <div className="flex justify-center pt-8"> */}
             <div className="flex flex-row items-center py-4 mt-4 align-center">
               <a
@@ -80,11 +96,25 @@ const Numbers = () => {
           </div>
         </div>
         <div class="lg:w-6/12 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-          <img
+          <div className="flex flex-col items center">
+            <TwitterTimelineEmbed
+              sourceType="profile"
+              screenName="SbudnicS"
+              options={{ height: 600 }}
+              // onComplete={action}
+            />
+            <div className="py-4">
+                <TwitterFollowButton
+                  screenName="SbudnicS"
+                  options={{ size: "large" }}
+                />
+            </div>
+          </div>
+          {/* <img
             class="object-cover object-center w-full h-full"
             src={about0}
             alt="stats"
-          />
+          /> */}
         </div>
       </div>
     </section>
