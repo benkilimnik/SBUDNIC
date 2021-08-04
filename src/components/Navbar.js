@@ -53,6 +53,7 @@ export default function Navbar({ navItems }) {
                   <NavLink
                     className="flex items-center px-4 py-2 leading-snug btn btn-ghost btn-sm"
                     to={`${nav.navItem}`}
+                    onClick={() => setNavbarOpen(!navbarOpen)}
                   >
                     <span className="tracking-wider text-md title-font hover:text-secondary">
                       {nav.navItem}
