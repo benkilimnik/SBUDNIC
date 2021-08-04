@@ -25,8 +25,7 @@ const team = [
   {
     id: 2,
     title: "Marco Cross",
-    subtitle: "Hardware isn't hard.",
-    category: "Subsystem Managing Engineer",
+    subtitle: "Hardware isn't hard. Perpetually inventing, designing, and making. I get antsy if my hands stop moving.",    category: "Subsystem Managing Engineer",
     image: marco,
     team: "AOCS",
     position: "Subsystem Managing Engineer"
@@ -34,7 +33,7 @@ const team = [
   {
     id: 52,
     title: "Marco Cross",
-    subtitle: "Hardware isn't hard.",
+    subtitle: "Hardware isn't hard. Perpetually inventing, designing, and making. I get antsy if my hands stop moving.",
     category: "Chief Engineer",
     position: "Chief Engineer",
     image: marco,
@@ -43,7 +42,7 @@ const team = [
   {
     id: 42,
     title: "Marco Cross",
-    subtitle: "Hardware isn't hard.",
+    subtitle: "Hardware isn't hard. Perpetually inventing, designing, and making. I get antsy if my hands stop moving.",
     category: "Lead Engineer",
     position: "Subsystem Managing Engineer",
     image: marco,
@@ -79,8 +78,7 @@ const team = [
   {
     id: 6,
     title: "Ashton Lam",
-    subtitle:
-      "Perpetually inventing, designing, and making. I get antsy if my hands stop moving.",
+    subtitle:"",
     category: "Marketing",
     position: "Marketing Manager",
     image: ashton,
