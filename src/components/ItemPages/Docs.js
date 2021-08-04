@@ -21,7 +21,7 @@ const Docs = () => (
               Our goal: build and launch a stabilized, camera-carrying cubesat
               in months{" "}
             </h1>
-            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+            <div class="h-1 w-20 bg-red-600 rounded"></div>
           </div>
           <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
             SBUDNIC is a group of Brown University students developing a cube

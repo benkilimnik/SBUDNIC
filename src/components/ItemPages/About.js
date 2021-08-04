@@ -10,18 +10,18 @@ const Home = () => (
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col">
           <div class="h-1 bg-gray-200 rounded overflow-hidden">
-            <div class="w-24 h-full bg-indigo-500"></div>
+            <div class="w-24 h-full bg-red-600"></div>
           </div>
           <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
             <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">
               Design Overview
             </h1>
             <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-              SBUDNIC is a <span className="text-indigo-500">S</span>putnik-like
-              3U cubesat by <span className="text-indigo-500">B</span>rown{" "}
-              <span className="text-indigo-500">U</span>niversity,{" "}
-              <span className="text-indigo-500">D</span>-Orbit, and{" "}
-              <span className="text-indigo-500">C</span>NR. Our team is divided
+              SBUDNIC is a <span className="text-primary">S</span>putnik-like
+              3U cubesat by <span className="text-primary">B</span>rown{" "}
+              <span className="text-primary">U</span>niversity,{" "}
+              <span className="text-primary">D</span>-Orbit, and{" "}
+              <span className="text-primary">C</span>NR. Our team is divided
               into various subsystems responsible for different parts of the
               satellite, including Structure (STR), the Thermal Control System
               (TCS), Tracking, Telemetry and Control (TTC), Electrical Power
@@ -39,7 +39,7 @@ const Home = () => (
                 src={about4}
                 alt="content"
               />
-              <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
+              <h3 class="tracking-widest text-primary text-xs font-medium title-font">
                 STR
               </h3>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -55,7 +55,7 @@ const Home = () => (
               </p>
               <a
                 href="https://drive.google.com/file/d/1x4FcdKtLIiUYGH81jWcC8PWpFF-qoDEo/view?usp=sharing"
-                class="text-indigo-500 inline-flex items-center mt-3"
+                class="text-red-600 inline-flex items-center mt-3"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -81,7 +81,7 @@ const Home = () => (
                 src={about1}
                 alt="content"
               />
-              <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
+              <h3 class="tracking-widest text-primary text-xs font-medium title-font">
                 OBDH
               </h3>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -96,7 +96,7 @@ const Home = () => (
               </p>
               <a
                 href="https://drive.google.com/file/d/1w9RmT52blB5fRuY7TmT3oAtLQOQxwxKq/view?usp=sharing"
-                class="text-indigo-500 inline-flex items-center mt-3"
+                class="text-red-600 inline-flex items-center mt-3"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -122,7 +122,7 @@ const Home = () => (
                 src={about2}
                 alt="content"
               />
-              <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
+              <h3 class="tracking-widest text-primary text-xs font-medium title-font">
                 AOCS
               </h3>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -139,7 +139,7 @@ const Home = () => (
               </p>
               <a
                 href="https://drive.google.com/file/d/1Hy3fGHrIObc0CyCTaFyTSMm8GrW6mX_U/view?usp=sharing"
-                class="text-indigo-500 inline-flex items-center mt-3"
+                class="text-red-600 inline-flex items-center mt-3"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -165,7 +165,7 @@ const Home = () => (
                 src={about3}
                 alt="content"
               />
-              <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">
+              <h3 class="tracking-widest text-primary text-xs font-medium title-font">
                 TTC
               </h3>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
@@ -179,7 +179,7 @@ const Home = () => (
               </p>
               <a
                 href="https://drive.google.com/file/d/1LXMkEq8CFGcs01GfqRn77i9wS1NV8CsF/view?usp=sharing"
-                class="text-indigo-500 inline-flex items-center mt-3"
+                class="text-red-600 inline-flex items-center mt-3"
                 target="_blank"
                 rel="noreferrer"
               >
