@@ -14,7 +14,7 @@ export default function Navbar({ navItems }) {
               to="/"
             >
                {/* <img
-              class="h-10 object-cover object-center rounded"
+              className="object-cover object-center h-10 rounded"
               alt="hero"
               src={sbudnic4}
             /> */}

@@ -54,37 +54,37 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 
 const Home = () => (
   <>
-    <section class="text-gray-600 body-font">
-      <div class="container mx-auto flex px-5 py-12 sm:py-24 md:flex-row flex-col items-center">
-        <div class="w-11/12 sm:w-full lg:flex-grow md:w-6/12 xl:pr-72 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 class="lg:pb-8 title-font font-bold lg:text-5xl md:leading-tight lg:leading-snug sm:text-4xl text-3xl mb-8 sm:mb-4 text-gray-900">
+    <section className="text-gray-600 body-font">
+      <div className="container flex flex-col items-center px-5 py-12 mx-auto sm:py-24 md:flex-row">
+        <div className="flex flex-col items-center w-11/12 mb-16 text-center sm:w-full lg:flex-grow md:w-6/12 xl:pr-72 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
+          <h1 className="mb-8 text-3xl font-bold text-gray-900 lg:pb-8 title-font lg:text-5xl md:leading-tight lg:leading-snug sm:text-4xl sm:mb-4">
           We're building a Sputnik-like CubeSat on a budget in record time
           </h1>
 
           <div className="invisible hidden 2xl:visible 2xl:grid 2xl:items-center 2xl:grid-cols-4 2xl:pb-12 2xl:align-center">
-            <div class="2xl:pr-12">
-              <h2 class="title-font font-medium text-3xl text-gray-900">
+            <div className="2xl:pr-12">
+              <h2 className="text-3xl font-medium text-gray-900 title-font">
                 1 Year
               </h2>
-              <p class="leading-relaxed">Timeframe</p>
+              <p className="leading-relaxed">Timeframe</p>
             </div>
-            <div class="2xl:pr-12">
-              <h2 class="title-font font-medium text-3xl text-gray-900">
+            <div className="2xl:pr-12">
+              <h2 className="text-3xl font-medium text-gray-900 title-font">
                 $10K
               </h2>
-              <p class="leading-relaxed">Budget</p>
+              <p className="leading-relaxed">Budget</p>
             </div>
-            <div class="pr-12">
-              <h2 class="title-font font-medium text-3xl text-gray-900">20+</h2>
-              <p class="leading-relaxed">Students</p>
+            <div className="pr-12">
+              <h2 className="text-3xl font-medium text-gray-900 title-font">20+</h2>
+              <p className="leading-relaxed">Students</p>
             </div>
-            <div class="">
-              <h2 class="title-font font-medium text-3xl text-gray-900">1</h2>
-              <p class="leading-relaxed">3U CubeSat</p>
+            <div className="">
+              <h2 className="text-3xl font-medium text-gray-900 title-font">1</h2>
+              <p className="leading-relaxed">3U CubeSat</p>
             </div>
           </div>
 
-          <p class="sm:mb-6 lg:text-xl lg:leading-relaxed">
+          <p className="sm:mb-6 lg:text-xl lg:leading-relaxed">
             A small group of Brown University students testing the limits of how
             quickly and efficiently a 3U CubeSat can be developed. Supported by
             D-Orbit and the National Research Council of Italy (CNR).
@@ -95,25 +95,25 @@ const Home = () => (
               renderer={renderer}
             />
           </div>
-          <div class="flex justify-center">
+          <div className="flex justify-center">
             <Link
               to="/about"
-              class="transition duration-500 ease-out transform inline-flex text-white bg-primary border-0 py-3 px-6 focus:outline-none hover:bg-indigo-800 rounded text-xl hover:scale-110 active:scale-110 focus:scale-110"
+              className="inline-flex px-6 py-3 text-xl text-white transition duration-500 ease-out transform border-0 rounded bg-primary focus:outline-none hover:bg-indigo-800 hover:scale-110 active:scale-110 focus:scale-110"
               // className="px-3 pt-4 mb-1 mr-1 text-xs font-bold text-indigo-500 uppercase transition duration-500 ease-out transform border-t-2 outline-none hover:scale-110 hover:opacity-100 background-transparent active:scale-110 focus:scale-110 hover:text-indigo-600"
             >
               About
             </Link>
             <Link
               to="/news"
-              class="ml-4 inline-flex text-white bg-secondary border-0 py-3 px-6 focus:outline-none hover:bg-red-500 rounded text-lg duration-500 ease-out transform  hover:scale-110 active:scale-110 focus:scale-110"
+              className="inline-flex px-6 py-3 ml-4 text-lg text-white duration-500 ease-out transform border-0 rounded bg-secondary focus:outline-none hover:bg-red-500 hover:scale-110 active:scale-110 focus:scale-110"
             >
               News
             </Link>
           </div>
         </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
           <img
-            class="object-cover object-center rounded"
+            className="object-cover object-center rounded"
             alt="hero"
             src={sbudnicN}
           />

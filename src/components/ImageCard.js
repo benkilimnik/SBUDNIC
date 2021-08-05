@@ -6,28 +6,28 @@ const ImageCard = ({ item }) => {
     <>
     <button
       key={item.id}
-      class="p-2 xl:w-3/12 md:w-1/2 w-full border-2 border-gray-100 rounded-2xl hover:shadow-md hover:bg-white"
+      className="w-full p-2 border-2 border-gray-100 xl:w-3/12 md:w-1/2 rounded-2xl hover:shadow-md hover:bg-white"
       style={{ transition: "all 0.3s ease" }}
       onClick={() => setShowModal(true)}
     >
       <div
-        class="h-full flex items-center border-gray-200 p-4 rounded-lg"
+        className="flex items-center h-full p-4 border-gray-200 rounded-lg"
       >
         <img
           alt="team"
-          class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4"
+          className="flex-shrink-0 object-cover object-center w-16 h-16 mr-4 bg-gray-100 rounded-lg"
           src={item.image}
         />
-        <div class="flex-grow text-left ml-4">
-          <h2 class="text-gray-900 title-font font-medium">{item.title}</h2>
-          <p class="text-gray-500">{item.position}</p>
+        <div className="flex-grow ml-4 text-left">
+          <h2 className="font-medium text-gray-900 title-font">{item.title}</h2>
+          <p className="text-gray-500">{item.position}</p>
         </div>
       </div>
       </button>
       {showModal ? (
         <>
           <div 
-          className="fixed inset-0 z-50 flex items-center justify-center invisible px-8 overflow-x-hidden overflow-y-auto outline-none sm:visible focus:outline-none">
+          className="fixed inset-0 z-50 flex items-center justify-center px-8 overflow-x-hidden overflow-y-auto outline-none sm:visible focus:outline-none">
             <div className="relative w-auto max-w-3xl mx-auto my-6">
               {/*content*/}
               <div className="relative flex flex-col w-full border-0 rounded-lg shadow-2xl outline-none bg-gray-50 focus:outline-none">
@@ -50,7 +50,7 @@ const ImageCard = ({ item }) => {
                 <div className="flex flex-col items-center">
                   <img
                     alt="team"
-                    className="invisible sm:visible sm:flex-shrink-0 sm:rounded-lg sm:w-5/12 sm:my-12 sm:h-80 sm:object-cover sm:object-center sm:mb-4"
+                    className="max-h-32 sm:max-h-full sm:flex-shrink-0 sm:rounded-lg sm:w-5/12 sm:my-12 sm:h-80 sm:object-cover sm:object-center sm:mb-4"
                     src={item.image}
                   />
                 </div>
@@ -58,7 +58,7 @@ const ImageCard = ({ item }) => {
                   <p className="my-4 text-lg leading-relaxed text-center sm:px-20 text-blueGray-500">
                     {item.position}
                   </p>
-                  <p className="my-4 text-lg leading-relaxed text-left sm:px-20 text-blueGray-500">
+                  <p className="my-4 overflow-y-scroll text-lg leading-relaxed text-left sm:max-h-full max-h-32 sm:px-20 text-blueGray-500">
                     {item.subtitle}
                   </p>
                 </div>
