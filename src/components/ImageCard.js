@@ -27,7 +27,7 @@ const ImageCard = ({ item }) => {
       {showModal ? (
         <>
           <div 
-          className="fixed inset-0 z-50 flex items-center justify-center px-8 overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
+          className="fixed inset-0 z-50 flex items-center justify-center invisible px-8 overflow-x-hidden overflow-y-auto outline-none sm:visible focus:outline-none">
             <div className="relative w-auto max-w-3xl mx-auto my-6">
               {/*content*/}
               <div className="relative flex flex-col w-full border-0 rounded-lg shadow-2xl outline-none bg-gray-50 focus:outline-none">
