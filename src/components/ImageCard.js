@@ -55,6 +55,9 @@ const ImageCard = ({ item }) => {
                   />
                 </div>
                 <div className="relative flex-auto p-6">
+                  <p className="my-4 text-lg leading-relaxed text-center sm:px-20 text-blueGray-500">
+                    {item.position}
+                  </p>
                   <p className="my-4 text-lg leading-relaxed text-left sm:px-20 text-blueGray-500">
                     {item.subtitle}
                   </p>

@@ -51,7 +51,7 @@ const team = [
   {
     id: 3,
     title: "Dheraj Ganjikunta",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     category: "Program Manager",
     position: "Program Manager",
     image: dheraj,
@@ -105,7 +105,7 @@ const team = [
   {
     id: 11,
     title: "Duncan Crane",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "TTC + GSEG",
     category: "Telemetry, Tracking, Control",
     position: "Subsystem Managing Engineer",
@@ -124,8 +124,7 @@ const team = [
   {
     id: 12,
     title: "Anthony Bishop-Gylys",
-    subtitle: "",
-    team: "TTC + GSEG",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",    team: "TTC + GSEG",
     category: "Ground Segment",
     position: "Engineer",
     image: sbudnicNW,
@@ -133,8 +132,7 @@ const team = [
   {
     id: 13,
     title: "Eliot Laidlaw",
-    subtitle: "",
-    team: "OBDH + PL",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",    team: "OBDH + PL",
     category: "",
     position: "Subsystem Managing Engineer",
     image: sbudnicNW,
@@ -142,8 +140,7 @@ const team = [
   {
     id: 15,
     title: "Aaron Jeyaraj",
-    subtitle: "",
-    team: "OBDH + PL",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",    team: "OBDH + PL",
     category: "",
     position: "Engineer",
     image: sbudnicNW,
@@ -151,8 +148,7 @@ const team = [
   {
     id: 15,
     title: "Hammad Izhar",
-    subtitle: "",
-    team: "OBDH + PL",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",    team: "OBDH + PL",
     category: "",
     position: "Engineer",
     image: sbudnicNW,
@@ -160,8 +156,7 @@ const team = [
   {
     id: 16,
     title: "Benjamin Smith",
-    subtitle: "",
-    team: "OBDH + PL",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",    team: "OBDH + PL",
     category: "",
     position: "Engineer",
     image: sbudnicNW,
@@ -169,8 +164,7 @@ const team = [
   {
     id: 17,
     title: "Shin-Ji Low",
-    subtitle: "",
-    team: "EPS",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",    team: "EPS",
     category: "",
     position: "Subsystem Managing Engineer",
     image: sbudnicNW,
@@ -178,7 +172,7 @@ const team = [
   {
     id: 21,
     title: "Elizabeth Kimmel",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Testing",
     category: "",
     position: "Subsystem Managing Engineer",
@@ -187,7 +181,7 @@ const team = [
   {
     id: 22,
     title: "Cameron Goodreau",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Testing",
     category: "",
     position: "Engineer",
@@ -196,7 +190,7 @@ const team = [
   {
     id: 23,
     title: "Maddie Simons",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Testing",
     category: "",
     position: "Engineer",
@@ -215,7 +209,7 @@ const team = [
   {
     id: 25,
     title: "Matteo Perotta",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Advisor",
     category: "General",
     position: "Industry Advisor for Systems Engineering",
@@ -224,7 +218,7 @@ const team = [
   {
     id: 26,
     title: "Michael Umbritcht",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Advisor",
     category: "General",
     position: "Industry Advisor for Telemetry, Tracking, and Control",
@@ -243,7 +237,7 @@ const team = [
   {
     id: 27,
     title: "Ray Z",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Advisor",
     category: "General",
     position: "Industry Advisor for Telemetry, Tracking, and Control",
@@ -252,7 +246,7 @@ const team = [
   {
     id: 28,
     title: "Selia Jindal",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Program Management and Public Relations",
     category: "General",
     position: "Program Manager Assistant",
@@ -261,7 +255,7 @@ const team = [
   {
     id: 29,
     title: "Jared Johnson",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Program Management and Public Relations",
     category: "General",
     position: "Program Manager Assistant",
@@ -270,7 +264,7 @@ const team = [
   {
     id: 30,
     title: "Damir Kulzhanov",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Program Management and Public Relations",
     category: "General",
     position: "Program Manager Assistant",
@@ -279,7 +273,7 @@ const team = [
   {
     id: 31,
     title: "Raghav Puri",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Program Management and Public Relations",
     category: "General",
     position: "Program Manager Assistant",
@@ -298,7 +292,7 @@ const team = [
   {
     id: 32,
     title: "Vasudev Agarwal",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "TCS",
     category: "",
     position: "Engineer",
@@ -307,7 +301,7 @@ const team = [
   {
     id: 33,
     title: "Sejal Shah",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "STR",
     category: "",
     position: "Subsystem Managing Engineer",
@@ -316,7 +310,7 @@ const team = [
   {
     id: 34,
     title: "Gabby Shieh",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "STR",
     category: "",
     position: "Engineer",
@@ -325,7 +319,7 @@ const team = [
   {
     id: 35,
     title: "Geoffrey Hazard",
-    subtitle: "",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "STR",
     category: "",
     position: "Engineer",
