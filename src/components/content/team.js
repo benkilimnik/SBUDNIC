@@ -94,16 +94,6 @@ const team = [
     image: maddie,
     team: "Testing",
   },
-
-  {
-    id: 8,
-    title: "Filip Kierzenka",
-    subtitle:
-      "Rising junior from Framingham, MA studying Applied Math and Computer Science. As part of the OBDH team, I am working to ensure that our computer systems survive the radiation of space. Outside of school work I like to play hockey, build things, and reinvent the wheel.",
-    category: "Onboard Data Handling Engineer",
-    team: "PL + OBDH",
-    image: filip,
-  },
   {
     id: 9,
     title: "Daniel Wang",
@@ -146,6 +136,17 @@ const team = [
     category: "",
     position: "Subsystem Managing Engineer",
     image: sbudnicNW,
+  },
+
+  {
+    id: 8,
+    title: "Filip Kierzenka",
+    subtitle:
+      "Rising junior from Framingham, MA studying Applied Math and Computer Science. As part of the OBDH team, I am working to ensure that our computer systems survive the radiation of space. Outside of school work I like to play hockey, build things, and reinvent the wheel.",
+    category: "Onboard Data Handling Engineer",
+    position: "Engineer",
+    team: "OBDH + PL",
+    image: filip,
   },
   {
     id: 55,
@@ -327,6 +328,46 @@ const team = [
     image: haley,
     position: "Engineer",
     team: "EPS",
+  },
+  {
+    id: 43,
+    title: "Ron Creel",
+    category: "Onboard Data Handling Engineer",
+    position: "Industry Advisor",
+    team: "alumni",
+    image: sbudnicNW,
+  },
+  {
+    id: 40,
+    title: "Brennan Vasquez",
+    category: "Onboard Data Handling Engineer",
+    position: "Engineer",
+    team: "alumni",
+    image: sbudnicNW,
+  },
+  {
+    id: 41,
+    title: "Timothy McDonough",
+    category: "Onboard Data Handling Engineer",
+    position: "Engineer",
+    team: "alumni",
+    image: sbudnicNW,
+  },
+  {
+    id: 42,
+    title: "Madeline Montagner",
+    category: "Onboard Data Handling Engineer",
+    position: "Engineer",
+    team: "alumni",
+    image: sbudnicNW,
+  },
+  {
+    id: 44,
+    title: "Daniel Wang",
+    category: "Onboard Data Handling Engineer",
+    position: "Engineer",
+    team: "alumni",
+    image: sbudnicNW,
   },
 ]
 

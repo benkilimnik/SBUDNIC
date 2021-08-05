@@ -129,6 +129,18 @@ export default function Team() {
                 <ImageCard key={item.id} item={item} />
               ))}
           </div>
+          <div className="flex flex-col w-full mb-10 text-center">
+            <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
+            Alumni
+            </h1>
+          </div>
+          <div className="flex flex-wrap mb-16 -m-2">
+            {team
+              .filter((item) => item.team === "alumni")
+              .map((item) => (
+                <ImageCard key={item.id} item={item} />
+              ))}
+          </div>
           
         </div>
       </section>
