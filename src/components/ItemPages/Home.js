@@ -91,7 +91,7 @@ const Home = () => (
           </p>
           <div className="invisible py-4 text-gray-900 lg:visible">
             <Countdown
-              date={Date.now() + calcTimeDelta("2021-11-01T00:00:00").total}
+              date={Date.now() + calcTimeDelta("2021-12-01T00:00:00").total}
               renderer={renderer}
             />
           </div>
