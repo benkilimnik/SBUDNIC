@@ -1,13 +1,11 @@
 import React from "react"
-// import { about0 } from "./content/images"
 import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed"
-// import InstagramEmbed from "react-instagram-embed"
 
 const Numbers = () => {
   return (
     <section class="text-gray-600 body-font">
-      <div class="container px-5 sm:py-12 lg:py-24 mx-auto flex flex-wrap">
-        <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+      <div class="px-8 sm:py-12 lg:py-24 mx-auto flex-col items-center flex">
+        {/* <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
           <div class="w-full sm:p-4 px-4 mb-6">
             <h1 class="title-font font-medium text-xl mb-2 text-gray-900">
               Stay in the loop
@@ -16,21 +14,7 @@ const Numbers = () => {
             <div class="leading-relaxed">
               Follow us on Twitter, Instagram, and LinkedIn.
             </div>
-            {/* <InstagramEmbed
-              url="https://instagr.am/p/Zw9o4/"
-              clientAccessToken="123|456"
-              maxWidth={320}
-              hideCaption={false}
-              containerTagName="div"
-              protocol=""
-              injectScript
-              onLoading={() => {}}
-              onSuccess={() => {}}
-              onAfterRender={() => {}}
-              onFailure={() => {}}
-            /> */}
-
-            {/* <div className="flex justify-center pt-8"> */}
+       
             <div className="flex flex-row items-center py-4 mt-4 align-center">
               <a
                 href="https://twitter.com/SbudnicS"
@@ -94,14 +78,14 @@ const Numbers = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
+
         <div class="lg:w-6/12 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
           <div className="flex flex-col items center">
             <TwitterTimelineEmbed
               sourceType="profile"
               screenName="SbudnicS"
               options={{ height: 600 }}
-              // onComplete={action}
             />
             <div className="py-4">
                 <TwitterFollowButton
@@ -110,33 +94,10 @@ const Numbers = () => {
                 />
             </div>
           </div>
-          {/* <img
-            class="object-cover object-center w-full h-full"
-            src={about0}
-            alt="stats"
-          /> */}
         </div>
+
       </div>
     </section>
-    /* <div className="container flex flex-col items-center justify-center max-w-2xl px-10 mx-auto leading-7 text-left">
-      <div className="w-full shadow stats">
-        <div className="stat place-items-center place-content-center">
-          <div className="stat-title">Timeframe</div>
-          <div className="stat-value">1 Year</div>
-          <div className="stat-desc">Nov 2020 - Nov 2021</div>
-        </div>
-        <div className="stat place-items-center place-content-center">
-          <div className="stat-title">Budget</div>
-          <div className="text-green-500 stat-value">$10K</div>
-          <div className="stat-desc">D-Orbit and CNR</div>
-        </div>
-        <div className="stat place-items-center place-content-center">
-          <div className="stat-title">Team Members</div>
-          <div className="text-indigo-500 stat-value">20+</div>
-          <div className="stat-desc">And growing</div>
-        </div>
-      </div>
-    </div> */
   )
 }
 
