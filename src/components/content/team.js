@@ -148,7 +148,7 @@ const team = [
     image: sbudnicNW,
   },
   {
-    id: 15,
+    id: 55,
     title: "Aaron Jeyaraj",
     subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",    team: "OBDH + PL",
     category: "",
@@ -273,7 +273,7 @@ const team = [
     image: sbudnicNW,
   },
   {
-    id: 32,
+    id: 39,
     title: "Benjamin Kilimnik",
     subtitle:
       "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",

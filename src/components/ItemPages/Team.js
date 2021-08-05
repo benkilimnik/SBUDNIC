@@ -29,7 +29,7 @@ export default function Team() {
             {team
               .filter((item) => item.team === "Advisor")
               .map((item) => (
-                <ImageCard key={item.team} item={item} />
+                <ImageCard key={item.id} item={item} />
               ))}
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
@@ -41,7 +41,7 @@ export default function Team() {
             {team
               .filter((item) => item.team === "Program Management and Public Relations")
               .map((item) => (
-                <ImageCard key={item.team} item={item} />
+                <ImageCard key={item.id} item={item} />
               ))}
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
@@ -65,7 +65,7 @@ export default function Team() {
             {team
               .filter((item) => item.team === "TTC + GSEG")
               .map((item) => (
-                <ImageCard key={item.team} item={item} />
+                <ImageCard key={item.id} item={item} />
               ))}
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
@@ -77,7 +77,7 @@ export default function Team() {
             {team
               .filter((item) => item.team === "STR")
               .map((item) => (
-                <ImageCard key={item.team} item={item} />
+                <ImageCard key={item.id} item={item} />
               ))}
           </div>
 
@@ -90,7 +90,7 @@ export default function Team() {
             {team
               .filter((item) => item.team === "EPS")
               .map((item) => (
-                <ImageCard key={item.team} item={item} />
+                <ImageCard key={item.id} item={item} />
               ))}
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
@@ -102,7 +102,7 @@ export default function Team() {
             {team
               .filter((item) => item.team === "OBDH + PL")
               .map((item) => (
-                <ImageCard key={item.team} item={item} />
+                <ImageCard key={item.id} item={item} />
               ))}
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
@@ -114,7 +114,7 @@ export default function Team() {
             {team
               .filter((item) => item.team === "Testing")
               .map((item) => (
-                <ImageCard key={item.team} item={item} />
+                <ImageCard key={item.id} item={item} />
               ))}
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
@@ -126,7 +126,7 @@ export default function Team() {
             {team
               .filter((item) => item.team === "AOCS")
               .map((item) => (
-                <ImageCard key={item.team} item={item} />
+                <ImageCard key={item.id} item={item} />
               ))}
           </div>
           

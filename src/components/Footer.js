@@ -88,9 +88,9 @@ const Footer = () => {
             {/* <a className="text-black transition duration-500 ease-out transform opacity-50 hover:scale-110 hover:opacity-100">
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -105,9 +105,9 @@ const Footer = () => {
             >
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-6 h-6"
                 viewBox="0 0 24 24"
               >
@@ -124,9 +124,9 @@ const Footer = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-6 h-6"
                 viewBox="0 0 24 24"
               >
@@ -144,9 +144,9 @@ const Footer = () => {
               <svg
                 fill="currentColor"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="0"
                 className="w-6 h-6"
                 viewBox="0 0 24 24"
               >
