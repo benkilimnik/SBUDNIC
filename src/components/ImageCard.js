@@ -15,7 +15,7 @@ const ImageCard = ({ item }) => {
       >
         <img
           alt="team"
-          class="min-w-max w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4"
+          class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-lg mr-4"
           src={item.image}
         />
         <div class="flex-grow text-left ml-4">
@@ -50,7 +50,7 @@ const ImageCard = ({ item }) => {
                 <div className="flex flex-col items-center">
                   <img
                     alt="team"
-                    className="invisible sm:visible sm:flex-shrink-0 sm:rounded-lg min-w-max sm:w-5/12 sm:my-12 sm:h-80 sm:object-cover sm:object-center sm:mb-4"
+                    className="invisible sm:visible sm:flex-shrink-0 sm:rounded-lg sm:w-5/12 sm:my-12 sm:h-80 sm:object-cover sm:object-center sm:mb-4"
                     src={item.image}
                   />
                 </div>
