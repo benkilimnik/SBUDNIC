@@ -57,16 +57,7 @@ const team = [
     image: dheraj,
     team: "Program Management and Public Relations",
   },
-  {
-    id: 4,
-    title: "Haley Rose Flores",
-    subtitle:
-      "Haley Rose Flores is a first-year undergraduate student at Brown University studying Computer Science and Engineering. This is Haley’s first involvement in an engineering project at Brown University. During the summer before her senior year, Haley conducted research at the New Jersey Institute of Technology studying the process of self-assembly of multilayer graphene in water-containing impurities under the supervision of Dr. Dibakar Datta and Vidushi Sharma. As a part of the STEAM Academy throughout high school, Haley led the Green Technology House Project, which consisted of wiring a miniature house with solar panels, rechargeable batteries, and an Arduino. On the SBUDNIC team, Haley is a member of the Electrical Power System (EPS) subsystem and is responsible for designing and constructing the battery pack for the satellite alongside Brown alumnus, Shin-Ji Low.",
-    category: "Member of the EPS subsystem",
-    image: haley,
-    position: "Engineer",
-    team: "EPS",
-  },
+  
   {
     id: 5,
     title: "Benjamin Kilimnik",
@@ -339,6 +330,16 @@ const team = [
     category: "",
     position: "Engineer",
     image: sbudnicNW,
+  },
+  {
+    id: 4,
+    title: "Haley Rose Flores",
+    subtitle:
+      "Haley Rose Flores is a first-year undergraduate student at Brown University studying Computer Science and Engineering. This is Haley’s first involvement in an engineering project at Brown University. During the summer before her senior year, Haley conducted research at the New Jersey Institute of Technology studying the process of self-assembly of multilayer graphene in water-containing impurities under the supervision of Dr. Dibakar Datta and Vidushi Sharma. As a part of the STEAM Academy throughout high school, Haley led the Green Technology House Project, which consisted of wiring a miniature house with solar panels, rechargeable batteries, and an Arduino. On the SBUDNIC team, Haley is a member of the Electrical Power System (EPS) subsystem and is responsible for designing and constructing the battery pack for the satellite alongside Brown alumnus, Shin-Ji Low.",
+    category: "Member of the EPS subsystem",
+    image: haley,
+    position: "Engineer",
+    team: "EPS",
   },
 ]
 
