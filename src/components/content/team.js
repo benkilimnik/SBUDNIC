@@ -201,6 +201,15 @@ const team = [
     image: rick,
   },
   {
+    id: 66,
+    title: "Doug Stern",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
+    team: "Advisor",
+    category: "General",
+    position: "Industry Advisor for Structures",
+    image: sbudnicNW,
+  },
+  {
     id: 25,
     title: "Matteo Perotta",
     subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
