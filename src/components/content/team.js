@@ -293,6 +293,15 @@ const team = [
     image: benji,
   },
   {
+    id: 68,
+    title: "Benjamin Smith",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
+    team: "TCS",
+    category: "",
+    position: "Engineer",
+    image: sbudnicNW,
+  },
+  {
     id: 32,
     title: "Vasudev Agarwal",
     subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
