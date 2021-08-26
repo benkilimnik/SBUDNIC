@@ -35,7 +35,7 @@ const Numbers = () => {
                   <div className="py-2 text-sm leading-relaxed md:text-lg">
                     If you are a ham radio operator and are interested in
                     sending uplink or receiving downlink data, please send us an
-                    email at <a href="mailto:SBUDNIC@listserv.brown.edu" className="text-blue-500">SBUDNIC@listserv.brown.edu</a>
+                    email at <a href="mailto:sbudnicsatellite@gmail.com" className="text-blue-500">sbudnicsatellite@gmail.com</a>
                   </div>
                 </div>
               </div>
