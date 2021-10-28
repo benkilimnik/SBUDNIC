@@ -8,6 +8,7 @@ import Home from "./components/ItemPages/Home"
 import Team from "./components/ItemPages/Team"
 import News from "./components/ItemPages/News"
 import About from "./components/ItemPages/About"
+import Progress from "./components/ItemPages/Progress"
 
 const App = () => (
   <BrowserRouter>
@@ -20,6 +21,7 @@ const App = () => (
     <Route exact path="/about" component={About} />
     <Route exact path="/team" component={Team} />
     <Route exact path="/news" component={News} />
+    <Route exact path="/progress" component={Progress} />
   </BrowserRouter>
 )
 
