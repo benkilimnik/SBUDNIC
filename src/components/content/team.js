@@ -86,7 +86,7 @@ const team = [
   },
   {
     id: 7,
-    title: "Maddie Simons",
+    title: "Maddie Simon",
     subtitle:
       "I'm a member of the Brown class of '24 studying Biomedical Engineering! I'm super excited to be helping out with this project and have already learned so much.",
     category: "Testing Team Member",

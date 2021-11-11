@@ -17,8 +17,18 @@ import about5 from "../../assets/about5.jpeg"
 import about6 from "../../assets/about6.jpeg"
 import sbudnicN from "../../assets/sbudnicN.png"
 import sbudnicNW from "../../assets/sbudnicNW.png"
+import brown from "../../assets/brown.png"
+import dorbit from "../../assets/dorbit.png"
+import energizer from "../../assets/energizer.png"
+import italy from "../../assets/italy.png"
+import nasa from "../../assets/nasa.png"
 
 export {
+  brown, 
+  dorbit,
+  energizer,
+  italy,
+  nasa,
   theo,
   sbudnicN,
   sbudnicNW,

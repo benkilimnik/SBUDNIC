@@ -5,6 +5,11 @@ import {
   // space3,
   // eureka1,
   sbudnicN,
+  italy,
+  // brown, 
+  nasa, 
+  dorbit,
+  // energizer,
   // sbudnic2,
   // sbudnic3,
   // sbudnic4,
@@ -85,9 +90,13 @@ const Home = () => (
           </div>
 
           <p className="sm:mb-6 lg:text-xl lg:leading-relaxed">
-            A small group of Brown University students testing the limits of how
+            {/* A small group of Brown University students testing the limits of how
             quickly and efficiently a 3U CubeSat can be developed. Supported by
-            D-Orbit and the National Research Council of Italy (CNR).
+            D-Orbit and the National Research Council of Italy (CNR). */}
+            A small group of Brown University students testing the limits of how quickly and efficiently a 
+            3U CubeSat can be developed using parts that have never been to space before - like an $8 arduino 
+            processor and AA Energizer Batteries! 
+            {/* Supported by D-Orbit and the National Research Council of Italy (CNR). */}
           </p>
           <div className="invisible py-4 text-gray-900 lg:visible">
             <Countdown
@@ -117,6 +126,34 @@ const Home = () => (
             alt="hero"
             src={sbudnicN}
           />
+          {/* <p className="pt-4 text-xl">Supported by:</p> */}
+          <div className="grid grid-cols-2 gap-4 py-12 rounded-2xl md:grid-cols-3">
+            <img
+              className="object-cover object-center rounded"
+              alt="logo"
+              src={nasa}
+            />
+            {/* <img
+              className="object-cover object-center rounded"
+              alt="logo"
+              src={brown}
+            /> */}
+            <img
+              className="object-cover object-center rounded"
+              alt="logo"
+              src={dorbit}
+            />
+            <img
+              className="object-cover object-center rounded"
+              alt="logo"
+              src={italy}
+            />
+            {/* <img
+              className="object-cover object-center rounded"
+              alt="logo"
+              src={energizer}
+            /> */}
+          </div>
         </div>
       </div>
     </section>
