@@ -24,8 +24,14 @@ import italy from "../../assets/italy.png"
 import nasa from "../../assets/nasa.png"
 import arduino from "../../assets/arduino.svg"
 import risg from "../../assets/risg.png"
+import lia from "../../assets/lia.JPG"
+import selia from "../../assets/selia.jpg"
+import jenn from "../../assets/jenn.jpg"
 
 export {
+  jenn,
+  lia, 
+  selia,
   risg,
   brown, 
   dorbit,
