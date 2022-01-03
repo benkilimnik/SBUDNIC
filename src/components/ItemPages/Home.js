@@ -146,7 +146,7 @@ const Home = () => (
               src={dorbit}
             />
             <img
-              className="object-cover h-3/4 object-center rounded"
+              className="object-cover h-3/4 object-center mx-auto rounded"
               alt="logo"
               src={risg}
             />
