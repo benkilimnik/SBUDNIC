@@ -27,8 +27,10 @@ import risg from "../../assets/risg.png"
 import lia from "../../assets/lia.JPG"
 import selia from "../../assets/selia.jpg"
 import jenn from "../../assets/jenn.jpg"
+import gabby from "../../assets/gabrielle.jpg"
 
 export {
+  gabby,
   jenn,
   lia, 
   selia,

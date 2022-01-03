@@ -13,7 +13,8 @@ import {
   benji,
   selia,
   lia,
-  jenn
+  jenn,
+  gabby
 } from "../content/images"
 
 const team = [
@@ -356,7 +357,7 @@ const team = [
     team: "STR",
     category: "",
     position: "Engineer",
-    image: sbudnicNW,
+    image: gabby,
   },
   {
     id: 35,
