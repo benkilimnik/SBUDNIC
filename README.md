@@ -1,3 +1,10 @@
+# Welcome to SBUDNIC
+
+We are a group of Brown University students developing a cube satellite for launch using only terrestrial parts like Arduino Uno. This repository contains code for the official SBUDNIC website hosted at [sbudnic.space](https://sbudnic.space). It is custom designed and written with React and TailwindCSS.
+
+![image](https://user-images.githubusercontent.com/47846691/147965239-fcea5ce6-7c4f-47c2-aab4-77655f5a1987.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
