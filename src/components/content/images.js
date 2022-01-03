@@ -22,8 +22,11 @@ import dorbit from "../../assets/dorbit.png"
 import energizer from "../../assets/energizer.png"
 import italy from "../../assets/italy.png"
 import nasa from "../../assets/nasa.png"
+import arduino from "../../assets/arduino.svg"
+import risg from "../../assets/risg.png"
 
 export {
+  risg,
   brown, 
   dorbit,
   energizer,
@@ -32,6 +35,7 @@ export {
   theo,
   sbudnicN,
   sbudnicNW,
+  arduino,
   about0,
   about1,
   about2,

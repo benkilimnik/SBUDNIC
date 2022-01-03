@@ -6,9 +6,11 @@ import {
   // eureka1,
   sbudnicN,
   italy,
-  // brown, 
+  brown, 
   nasa, 
   dorbit,
+  arduino,
+  risg,
   // energizer,
   // sbudnic2,
   // sbudnic3,
@@ -94,7 +96,7 @@ const Home = () => (
             quickly and efficiently a 3U CubeSat can be developed. Supported by
             D-Orbit and the National Research Council of Italy (CNR). */}
             A small group of Brown University students testing the limits of how quickly and efficiently a 
-            3U CubeSat can be developed using parts that have never been to space before - like an $8 arduino 
+            3U CubeSat can be developed using terrestrial parts and cheaper, off-the-shelf components - like an Arduino 
             processor and AA Energizer Batteries! 
             {/* Supported by D-Orbit and the National Research Council of Italy (CNR). */}
           </p>
@@ -127,32 +129,37 @@ const Home = () => (
             src={sbudnicN}
           />
           {/* <p className="pt-4 text-xl">Supported by:</p> */}
-          <div className="grid grid-cols-2 gap-4 py-12 rounded-2xl md:grid-cols-3">
+          <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3">
             <img
               className="object-cover object-center rounded"
               alt="logo"
               src={nasa}
             />
-            {/* <img
+            <img
               className="object-cover object-center rounded"
               alt="logo"
-              src={brown}
-            /> */}
+              src={arduino}
+            />
             <img
               className="object-cover object-center rounded"
               alt="logo"
               src={dorbit}
             />
             <img
+              className="object-cover h-3/4 object-center rounded"
+              alt="logo"
+              src={risg}
+            />
+            <img
               className="object-cover object-center rounded"
               alt="logo"
               src={italy}
             />
-            {/* <img
+            <img
               className="object-cover object-center rounded"
               alt="logo"
-              src={energizer}
-            /> */}
+              src={brown}
+            />
           </div>
         </div>
       </div>
