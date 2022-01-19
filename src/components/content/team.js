@@ -56,8 +56,8 @@ const team = [
     id: 6,
     title: "Ashton Lam",
     subtitle:"",
-    category: "Public Relations Analysts",
-    position: "Public Relations Analysts",
+    category: "Public Relations Analyst",
+    position: "Public Relations Analyst",
     image: ashton,
     team: "Program Management and Public Relations",
   },
@@ -248,7 +248,7 @@ const team = [
       "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
     team: "Program Management and Public Relations",
     category: "",
-    position: "Public Relations Analysts",
+    position: "Public Relations Analyst",
     image: benji,
   },
   {
@@ -407,6 +407,16 @@ const team = [
     position: "Engineer",
     team: "alumni",
     image: sbudnicNW,
+  },
+  {
+    id: 45,
+    title: "Benjamin Kilimnik",
+    subtitle:
+      "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
+    team: "alumni",
+    category: "",
+    position: "Engineer (Thermal Control System)",
+    image: benji,
   },
 ]
 
