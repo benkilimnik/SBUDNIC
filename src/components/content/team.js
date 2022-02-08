@@ -307,6 +307,15 @@ const team = [
     image: sbudnicNW,
   },
   {
+    id: 57,
+    title: "Dan Rapaport",
+    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
+    team: "Program Management and Public Relations",
+    category: "General",
+    position: "Engineering Analyst",
+    image: sbudnicNW,
+  },
+  {
     id: 29,
     title: "Jared Johnson",
     subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
