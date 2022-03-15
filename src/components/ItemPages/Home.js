@@ -102,7 +102,7 @@ const Home = () => (
           </p>
           <div className="invisible py-4 text-gray-900 lg:visible">
             <Countdown
-              date={Date.now() + calcTimeDelta("2022-03-03T00:00:00").total}
+              date={Date.now() + calcTimeDelta("2022-03-30T00:00:00").total}
               renderer={renderer}
             />
           </div>
@@ -146,7 +146,7 @@ const Home = () => (
               src={dorbit}
             />
             <img
-              className="object-cover h-3/4 object-center mx-auto rounded"
+              className="object-cover object-center mx-auto rounded h-3/4"
               alt="logo"
               src={risg}
             />
