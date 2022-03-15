@@ -14,7 +14,8 @@ import {
   selia,
   lia,
   jenn,
-  gabby
+  gabby,
+  rap,
 } from "../content/images"
 
 const team = [
@@ -308,12 +309,12 @@ const team = [
   },
   {
     id: 57,
-    title: "Dan Rapaport",
-    subtitle: "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
+    title: "Dan Rapoport",
+    subtitle: "Dan's background as an architect specializing in modular structures has prepared him to previsualize mechanical solutions and realize them using whatever tools necessary.",
     team: "Program Management and Public Relations",
     category: "General",
     position: "Engineering Analyst",
-    image: sbudnicNW,
+    image: rap,
   },
   {
     id: 29,

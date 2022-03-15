@@ -28,8 +28,10 @@ import lia from "../../assets/lia.JPG"
 import selia from "../../assets/selia.jpg"
 import jenn from "../../assets/jenn.jpg"
 import gabby from "../../assets/gabrielle.jpg"
+import rap from "../../assets/rap.jpg"
 
 export {
+  rap,
   gabby,
   jenn,
   lia, 
