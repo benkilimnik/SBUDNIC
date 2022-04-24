@@ -1,3 +1,4 @@
+import mia from "../../assets/mia.jpg"
 import lorenzo from "../../assets/lorenzo.jpg"
 import dheraj from "../../assets/dheraj.jpg"
 import daniel from "../../assets/daniel.jpg"
@@ -32,6 +33,7 @@ import gabby from "../../assets/gabrielle.jpg"
 import rap from "../../assets/rap.jpg"
 
 export {
+  mia,
   lorenzo,
   rap,
   gabby,

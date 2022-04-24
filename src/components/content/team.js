@@ -1,5 +1,6 @@
 import {
   // sbudnicN,
+  mia,
   sbudnicNW,
   theo,
   rick,
@@ -67,6 +68,16 @@ const team = [
     position: "Program Manager",
     image: dheraj,
     team: "Program Management and Public Relations",
+  },
+  {
+    id: 40,
+    title: "Benjamin Kilimnik",
+    subtitle:
+      "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
+    team: "Program Management and Public Relations",
+    category: "",
+    position: "Public Relations Analyst",
+    image: benji,
   },
   {
     id: 6,
@@ -181,8 +192,8 @@ const team = [
     title: "Aaron Jeyaraj",
     subtitle:
       "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
-    team: "OBDH + PL",
-    category: "",
+    team: "alumni",
+    category: "alumni",
     position: "Engineer",
     image: sbudnicNW,
   },
@@ -277,16 +288,6 @@ const team = [
     image: sbudnicNW,
   },
   {
-    id: 40,
-    title: "Benjamin Kilimnik",
-    subtitle:
-      "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
-    team: "Program Management and Public Relations",
-    category: "",
-    position: "Public Relations Analyst",
-    image: benji,
-  },
-  {
     id: 27,
     title: "Ray Z",
     subtitle:
@@ -341,10 +342,20 @@ const team = [
     title: "Dan Rapoport",
     subtitle:
       "Dan's background as an architect specializing in modular structures has prepared him to previsualize mechanical solutions and realize them using whatever tools necessary.",
-    team: "Program Management and Public Relations",
+    team: "Research and Manufacturing",
     category: "General",
     position: "Engineering Analyst",
     image: rap,
+  },
+  {
+    id: 58,
+    title: "Mia Rollins",
+    subtitle:
+      "Mia Rollins is a video installation artist from Nashville, TN. They are in their last semester of their Sculpture MFA at the Rhode Island School of design. Their works examine the liminal space between the physical and virtual, science and magic, and memory and imagination.",
+    team: "Research and Manufacturing",
+    category: "General",
+    position: "Engineering Analyst",
+    image: mia,
   },
   {
     id: 29,

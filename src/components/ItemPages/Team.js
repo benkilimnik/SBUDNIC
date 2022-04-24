@@ -34,21 +34,31 @@ export default function Team() {
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-            Program Management and Public Relations
+              Program Management and Public Relations
             </h1>
           </div>
           <div className="flex flex-wrap mb-16 -m-2">
             {team
-              .filter((item) => item.team === "Program Management and Public Relations")
+              .filter(
+                (item) =>
+                  item.team === "Program Management and Public Relations"
+              )
               .map((item) => (
                 <ImageCard key={item.id} item={item} />
               ))}
           </div>
-          {/* <div className="flex flex-col w-full mb-10 text-center">
+          <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-              Thermal Control System
+              Research and Manufacturing
             </h1>
-          </div> */}
+          </div>
+          <div className="flex flex-wrap mb-16 -m-2">
+            {team
+              .filter((item) => item.team === "Research and Manufacturing")
+              .map((item) => (
+                <ImageCard key={item.id} item={item} />
+              ))}
+          </div>
           <div className="flex flex-wrap mb-16 -m-2">
             {team
               .filter((item) => item.team === "TCS")
@@ -58,7 +68,7 @@ export default function Team() {
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-            Telemetry, Tracking, Control & Ground Segment
+              Telemetry, Tracking, Control & Ground Segment
             </h1>
           </div>
           <div className="flex flex-wrap mb-16 -m-2">
@@ -70,7 +80,7 @@ export default function Team() {
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-            Structures
+              Structures
             </h1>
           </div>
           <div className="flex flex-wrap mb-16 -m-2">
@@ -83,7 +93,7 @@ export default function Team() {
 
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-            Electrical Power Systems
+              Electrical Power Systems
             </h1>
           </div>
           <div className="flex flex-wrap mb-16 -m-2">
@@ -95,7 +105,7 @@ export default function Team() {
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-            Payload & Onboard Data Handling
+              Payload & Onboard Data Handling
             </h1>
           </div>
           <div className="flex flex-wrap mb-16 -m-2">
@@ -107,7 +117,7 @@ export default function Team() {
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-            Testing
+              Testing
             </h1>
           </div>
           <div className="flex flex-wrap mb-16 -m-2">
@@ -119,7 +129,7 @@ export default function Team() {
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-            Altitude and Orbit Control
+              Altitude and Orbit Control
             </h1>
           </div>
           <div className="flex flex-wrap mb-16 -m-2">
@@ -131,7 +141,7 @@ export default function Team() {
           </div>
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-            Alumni
+              Alumni
             </h1>
           </div>
           <div className="flex flex-wrap mb-16 -m-2">
@@ -141,7 +151,6 @@ export default function Team() {
                 <ImageCard key={item.id} item={item} />
               ))}
           </div>
-          
         </div>
       </section>
       <Footer />
