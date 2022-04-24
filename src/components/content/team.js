@@ -70,6 +70,15 @@ const team = [
     team: "Program Management and Public Relations",
   },
   {
+    id: 6,
+    title: "Ashton Lam",
+    subtitle: "",
+    category: "Public Relations Analyst",
+    position: "Public Relations Analyst",
+    image: ashton,
+    team: "Program Management and Public Relations",
+  },
+  {
     id: 40,
     title: "Benjamin Kilimnik",
     subtitle:
@@ -78,15 +87,6 @@ const team = [
     category: "",
     position: "Public Relations Analyst",
     image: benji,
-  },
-  {
-    id: 6,
-    title: "Ashton Lam",
-    subtitle: "",
-    category: "Public Relations Analyst",
-    position: "Public Relations Analyst",
-    image: ashton,
-    team: "Program Management and Public Relations",
   },
   {
     id: 21,
@@ -193,7 +193,7 @@ const team = [
     subtitle:
       "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "alumni",
-    category: "alumni",
+    category: "OBDH + PL",
     position: "Engineer",
     image: sbudnicNW,
   },
