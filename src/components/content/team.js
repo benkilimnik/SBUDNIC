@@ -192,7 +192,7 @@ const team = [
     title: "Aaron Jeyaraj",
     subtitle:
       "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
-    team: "alumni",
+    team: "OBDH + PL",
     category: "OBDH + PL",
     position: "Engineer",
     image: sbudnicNW,
