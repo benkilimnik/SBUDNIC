@@ -1,3 +1,4 @@
+import lorenzo from "../../assets/lorenzo.jpg"
 import dheraj from "../../assets/dheraj.jpg"
 import daniel from "../../assets/daniel.jpg"
 import marco from "../../assets/marco.jpeg"
@@ -31,13 +32,14 @@ import gabby from "../../assets/gabrielle.jpg"
 import rap from "../../assets/rap.jpg"
 
 export {
+  lorenzo,
   rap,
   gabby,
   jenn,
-  lia, 
+  lia,
   selia,
   risg,
-  brown, 
+  brown,
   dorbit,
   energizer,
   italy,
