@@ -31,8 +31,10 @@ import selia from "../../assets/selia.jpg"
 import jenn from "../../assets/jenn.jpg"
 import gabby from "../../assets/gabrielle.jpg"
 import rap from "../../assets/rap.jpg"
+import eliot from "../../assets/eliot.jpeg"
 
 export {
+  eliot,
   mia,
   lorenzo,
   rap,

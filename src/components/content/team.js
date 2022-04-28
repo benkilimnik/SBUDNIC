@@ -1,6 +1,7 @@
 import {
   // sbudnicN,
   mia,
+  eliot,
   sbudnicNW,
   theo,
   rick,
@@ -174,7 +175,7 @@ const team = [
     team: "OBDH + PL",
     category: "",
     position: "Subsystem Managing Engineer",
-    image: sbudnicNW,
+    image: eliot,
   },
 
   {
