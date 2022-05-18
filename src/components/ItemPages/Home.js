@@ -6,8 +6,8 @@ import {
   // eureka1,
   sbudnicN,
   italy,
-  brown, 
-  nasa, 
+  brown,
+  nasa,
   dorbit,
   arduino,
   risg,
@@ -65,7 +65,7 @@ const Home = () => (
       <div className="container flex flex-col items-center px-5 py-12 mx-auto sm:py-24 md:flex-row">
         <div className="flex flex-col items-center w-11/12 mb-16 text-center sm:w-full lg:flex-grow md:w-6/12 xl:pr-72 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
           <h1 className="mb-8 text-3xl font-bold text-gray-900 lg:pb-8 title-font lg:text-5xl md:leading-tight lg:leading-snug sm:text-4xl sm:mb-4">
-          We're building a Sputnik-like CubeSat on a budget in record time
+            We're building a Sputnik-like CubeSat on a budget in record time
           </h1>
 
           <div className="invisible hidden 2xl:visible 2xl:grid 2xl:items-center 2xl:grid-cols-4 2xl:pb-12 2xl:align-center">
@@ -82,23 +82,31 @@ const Home = () => (
               <p className="leading-relaxed">Budget</p>
             </div>
             <div className="pr-12">
-              <h2 className="text-3xl font-medium text-gray-900 title-font">20+</h2>
+              <h2 className="text-3xl font-medium text-gray-900 title-font">
+                20+
+              </h2>
               <p className="leading-relaxed">Students</p>
             </div>
             <div className="">
-              <h2 className="text-3xl font-medium text-gray-900 title-font">1</h2>
+              <h2 className="text-3xl font-medium text-gray-900 title-font">
+                1
+              </h2>
               <p className="leading-relaxed">3U CubeSat</p>
             </div>
           </div>
 
           <p className="sm:mb-6 lg:text-xl lg:leading-relaxed">
-            {/* A small group of Brown University students testing the limits of how
-            quickly and efficiently a 3U CubeSat can be developed. Supported by
-            D-Orbit and the National Research Council of Italy (CNR). */}
-            A small group of Brown University students testing the limits of how quickly and efficiently a 
-            3U CubeSat can be developed using terrestrial parts and cheaper, off-the-shelf components - like an Arduino 
-            processor and AA Energizer Batteries! 
-            {/* Supported by D-Orbit and the National Research Council of Italy (CNR). */}
+            {/* SBUDNIC is a Sputnik-like 3U CubeSat by Brown University and CNR,
+            with the support of D-Orbit, AMSAT-Italy, La Sapienza-University of
+            Rome and NASA Rhode Island Space Grant  */}
+            A small group of Brown University students testing the limits of how
+            quickly and efficiently a 3U CubeSat can be developed.{" "}
+            {/* using
+            terrestrial parts and cheaper, off-the-shelf components.  */}
+            In collaboration with CNR and supported by D-Orbit, AMSAT-Italy, La
+            Sapienza-University of Rome and NASA Rhode Island Space Grant.
+            {/* - like an Arduino 
+            processor and AA Energizer Batteries!  */}
           </p>
           <div className="invisible py-4 text-gray-900 lg:visible">
             <Countdown
@@ -128,8 +136,16 @@ const Home = () => (
             alt="hero"
             src={sbudnicN}
           />
-          {/* <p className="pt-4 text-xl">Supported by:</p> */}
+          {/* <p className="pt-4 text-xl">Collaborators:</p> */}
+          {/* <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3"> */}
+          {/* </div> */}
+          {/* <p className="pt-4 text-xl">Sponsors:</p> */}
           <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3">
+            <img
+              className="object-cover object-center rounded"
+              alt="logo"
+              src={italy}
+            />
             <img
               className="object-cover object-center rounded"
               alt="logo"
@@ -149,11 +165,6 @@ const Home = () => (
               className="object-cover object-center mx-auto rounded h-3/4"
               alt="logo"
               src={risg}
-            />
-            <img
-              className="object-cover object-center rounded"
-              alt="logo"
-              src={italy}
             />
             <img
               className="object-cover object-center rounded"
