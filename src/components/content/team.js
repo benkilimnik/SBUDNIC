@@ -497,6 +497,16 @@ const team = [
     position: "AMSAT Italia Advisor",
     image: sbudnicNW,
   },
+  {
+    id: 89,
+    title: "Vikas Rana",
+    subtitle:
+      "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
+    category: "Engineer",
+    position: "Engineer",
+    team: "Testing",
+    image: sbudnicNW,
+  },
 ]
 
 export { team }
