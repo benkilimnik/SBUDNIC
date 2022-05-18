@@ -32,8 +32,12 @@ import jenn from "../../assets/jenn.jpg"
 import gabby from "../../assets/gabrielle.jpg"
 import rap from "../../assets/rap.jpg"
 import eliot from "../../assets/eliot.jpeg"
+import roma from "../../assets/roma.png"
+import amsat from "../../assets/amsat.png"
 
 export {
+  roma,
+  amsat,
   eliot,
   mia,
   lorenzo,

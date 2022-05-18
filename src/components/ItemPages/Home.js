@@ -11,6 +11,8 @@ import {
   dorbit,
   arduino,
   risg,
+  amsat,
+  roma,
   // energizer,
   // sbudnic2,
   // sbudnic3,
@@ -154,18 +156,28 @@ const Home = () => (
             <img
               className="object-cover object-center rounded"
               alt="logo"
-              src={arduino}
+              src={roma}
             />
+            <img
+              className="object-cover object-center rounded"
+              alt="logo"
+              src={amsat}
+            />
+            {/* <img
+              className="object-cover object-center mx-auto rounded h-3/4"
+              alt="logo"
+              src={risg}
+            /> */}
             <img
               className="object-cover object-center rounded"
               alt="logo"
               src={dorbit}
             />
-            <img
-              className="object-cover object-center mx-auto rounded h-3/4"
+            {/* <img
+              className="object-cover object-center rounded"
               alt="logo"
-              src={risg}
-            />
+              src={arduino}
+            /> */}
             <img
               className="object-cover object-center rounded"
               alt="logo"
