@@ -9,11 +9,11 @@ import {
   brown,
   nasa,
   dorbit,
-  // arduino,
+  arduino,
   risg,
   amsat,
   roma,
-  // energizer,
+  energizer,
   // sbudnic2,
   // sbudnic3,
   // sbudnic4,
@@ -139,16 +139,19 @@ const Home = () => (
             alt="hero"
             src={sbudnicN}
           />
-          {/* <p className="pt-4 text-xl">Collaborators:</p> */}
-          {/* <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3"> */}
-          {/* </div> */}
-          {/* <p className="pt-4 text-xl">Sponsors:</p> */}
-          <div className="grid grid-cols-2 gap-6 py-12 rounded-2xl md:grid-cols-3">
+          <div className="grid grid-cols-2 gap-6 p-4 my-8 border-2 border-secondary rounded-2xl ">
             <img
               className="object-scale-down object-center h-24 rounded md:h-32"
               alt="logo"
               src={italy}
             />
+            <img
+              className="object-scale-down object-center h-24 rounded md:h-32 "
+              alt="logo"
+              src={brown}
+            />
+          </div>
+          <div className="grid grid-cols-2 gap-6 rounded-2xl md:grid-cols-3">
             <img
               className="object-scale-down object-center w-32 h-24 rounded md:h-32"
               alt="logo"
@@ -177,7 +180,12 @@ const Home = () => (
             <img
               className="object-scale-down object-center w-32 h-24 rounded md:h-32"
               alt="logo"
-              src={brown}
+              src={energizer}
+            />
+            <img
+              className="object-scale-down object-center w-32 h-24 rounded md:h-32"
+              alt="logo"
+              src={arduino}
             />
           </div>
         </div>
