@@ -17,17 +17,12 @@ const Home = () => (
               Design Overview
             </h1>
             <p className="pl-0 text-base leading-relaxed sm:w-3/5 sm:pl-10">
-              SBUDNIC is a <span className="text-primary">S</span>putnik-like 3U
-              CubeSat by <span className="text-primary">B</span>rown University
-              and <span className="text-primary">C</span>NR, with the support of{" "}
-              <span className="text-primary">D</span>-Orbit, AMSAT-Italy, La
-              Sapienza-University of Rome and NASA Rhode Island Space Grant. Our
-              team is divided into various subsystems responsible for different
-              parts of the satellite, including Structure (STR), the Thermal
-              Control System (TCS), Tracking, Telemetry and Control (TTC),
-              Electrical Power System (EPS), Onboard Data Handling (OBDH),
-              Payload (PL), Space Telecommunications Radio System (STR), and the
-              Altitude and Orbit Control System (AOCS).
+              Our team is divided into various subsystems responsible for
+              different parts of the satellite, including Structure (STR), the
+              Thermal Control System (TCS), Tracking, Telemetry and Control
+              (TTC), Electrical Power System (EPS), Onboard Data Handling
+              (OBDH), Payload (PL), Space Telecommunications Radio System (STR),
+              and the Altitude and Orbit Control System (AOCS).
             </p>
           </div>
         </div>

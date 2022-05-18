@@ -23,16 +23,6 @@ import {
 
 const team = [
   {
-    id: 45,
-    title: "Benjamin Kilimnik",
-    subtitle:
-      "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
-    team: "alumni",
-    category: "",
-    position: "Engineer (Thermal Control System)",
-    image: benji,
-  },
-  {
     id: 1,
     title: "Rick Fleeter",
     subtitle:
@@ -71,13 +61,14 @@ const team = [
     team: "Program Management and Public Relations",
   },
   {
-    id: 6,
-    title: "Ashton Lam",
-    subtitle: "",
-    category: "Public Relations Analyst",
-    position: "Public Relations Analyst",
-    image: ashton,
+    id: 28,
+    title: "Selia Jindal",
+    subtitle:
+      "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Program Management and Public Relations",
+    category: "General",
+    position: "Program Director",
+    image: selia,
   },
   {
     id: 40,
@@ -88,6 +79,15 @@ const team = [
     category: "",
     position: "Public Relations Analyst",
     image: benji,
+  },
+  {
+    id: 6,
+    title: "Ashton Lam",
+    subtitle: "",
+    category: "Public Relations Analyst",
+    position: "Public Relations Analyst",
+    image: ashton,
+    team: "Program Management and Public Relations",
   },
   {
     id: 21,
@@ -118,6 +118,16 @@ const team = [
     position: "Engineer",
     image: maddie,
     team: "Testing",
+  },
+  {
+    id: 45,
+    title: "Benjamin Kilimnik",
+    subtitle:
+      "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
+    team: "alumni",
+    category: "",
+    position: "Engineer (Thermal Control System)",
+    image: benji,
   },
   {
     id: 9,
@@ -193,8 +203,8 @@ const team = [
     title: "Aaron Jeyaraj",
     subtitle:
       "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
-    team: "OBDH + PL",
-    category: "OBDH + PL",
+    team: "alumni",
+    category: "alumni",
     position: "Engineer",
     image: sbudnicNW,
   },
@@ -297,16 +307,6 @@ const team = [
     category: "General",
     position: "Industry Advisor for Telemetry, Tracking, and Control",
     image: sbudnicNW,
-  },
-  {
-    id: 28,
-    title: "Selia Jindal",
-    subtitle:
-      "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
-    team: "Program Management and Public Relations",
-    category: "General",
-    position: "Program Director",
-    image: selia,
   },
   {
     id: 45,
@@ -487,6 +487,15 @@ const team = [
     position: "CNR Advisor",
     team: "Advisor",
     image: lorenzo,
+  },
+  {
+    id: 88,
+    title: "Emanuele D'Andria IØELE",
+    subtitle: "Advisor who greatly facilitated the frequency clearance.",
+    team: "Advisor",
+    category: "General",
+    position: "AMSAT Italia Advisor",
+    image: sbudnicNW,
   },
 ]
 

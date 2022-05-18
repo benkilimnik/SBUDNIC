@@ -24,10 +24,16 @@ const Docs = () => (
             <div className="w-20 h-1 bg-red-600 rounded"></div>
           </div>
           <p className="w-full leading-relaxed text-gray-500 lg:w-1/2">
-            SBUDNIC is a group of Brown University students developing a cube
-            satellite for launch using only terrestrial parts like Arduino Uno.
-            We plan to make all of our designs open-source. SBUDNIC emerged from
-            Professor Rick Fleeter’s “Design of Space Systems” class, ENGN1760.
+            SBUDNIC is a <span className="text-primary">S</span>putnik-like 3U
+            CubeSat by <span className="text-primary">B</span>rown{" "}
+            <span className="text-primary">U</span>niversity and{" "}
+            <span className="text-primary">C</span>NR, with the support of{" "}
+            <span className="text-primary">D</span>-Orbit, AMSAT-Italy, La
+            Sapienza-University of Rome and NASA Rhode Island Space Grant. Our
+            goal is to build and launch a cube satellite using only terrestrial
+            parts like Arduino Uno. We plan to make all of our designs
+            open-source. SBUDNIC emerged from Professor Rick Fleeter’s “Design
+            of Space Systems” class, ENGN1760.
           </p>
         </div>
         <div className="flex flex-wrap -mx-4 -mt-4 -mb-10 sm:-m-4">

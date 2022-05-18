@@ -9,7 +9,7 @@ import {
   brown,
   nasa,
   dorbit,
-  arduino,
+  // arduino,
   risg,
   amsat,
   roma,
@@ -101,12 +101,13 @@ const Home = () => (
             {/* SBUDNIC is a Sputnik-like 3U CubeSat by Brown University and CNR,
             with the support of D-Orbit, AMSAT-Italy, La Sapienza-University of
             Rome and NASA Rhode Island Space Grant  */}
-            A small group of Brown University students testing the limits of how
-            quickly and efficiently a 3U CubeSat can be developed.{" "}
+            A small group of Brown University students working with CNR to test
+            the limits of how quickly and efficiently a 3U CubeSat can be
+            developed.{" "}
             {/* using
             terrestrial parts and cheaper, off-the-shelf components.  */}
-            In collaboration with CNR and supported by D-Orbit, AMSAT-Italy, La
-            Sapienza-University of Rome and NASA Rhode Island Space Grant.
+            Supported by D-Orbit, AMSAT-Italy, La Sapienza-University of Rome
+            and NASA Rhode Island Space Grant.
             {/* - like an Arduino 
             processor and AA Energizer Batteries!  */}
           </p>
@@ -142,44 +143,39 @@ const Home = () => (
           {/* <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3"> */}
           {/* </div> */}
           {/* <p className="pt-4 text-xl">Sponsors:</p> */}
-          <div className="grid grid-cols-2 gap-5 py-12 rounded-2xl md:grid-cols-3">
+          <div className="grid grid-cols-2 gap-6 py-12 rounded-2xl md:grid-cols-3">
             <img
-              className="object-cover object-center rounded"
+              className="object-scale-down object-center h-24 rounded md:h-32"
               alt="logo"
               src={italy}
             />
             <img
-              className="object-cover object-center rounded"
-              alt="logo"
-              src={nasa}
-            />
-            <img
-              className="object-cover object-center rounded"
+              className="object-scale-down object-center w-32 h-24 rounded md:h-32"
               alt="logo"
               src={roma}
             />
             <img
-              className="object-cover object-center rounded"
+              className="hidden object-scale-down object-center w-32 h-24 rounded md:block md:h-32"
+              alt="logo"
+              src={risg}
+            />
+            <img
+              className="visible object-scale-down object-center w-32 h-24 rounded md:hidden md:h-32"
+              alt="logo"
+              src={nasa}
+            />
+            <img
+              className="object-scale-down object-center w-32 h-24 rounded md:h-32"
               alt="logo"
               src={amsat}
             />
-            {/* <img
-              className="object-cover object-center mx-auto rounded h-3/4"
-              alt="logo"
-              src={risg}
-            /> */}
             <img
-              className="object-cover object-center rounded"
+              className="object-scale-down object-center w-32 h-24 rounded md:h-32"
               alt="logo"
               src={dorbit}
             />
-            {/* <img
-              className="object-cover object-center rounded"
-              alt="logo"
-              src={arduino}
-            /> */}
             <img
-              className="object-cover object-center rounded"
+              className="object-scale-down object-center w-32 h-24 rounded md:h-32"
               alt="logo"
               src={brown}
             />
