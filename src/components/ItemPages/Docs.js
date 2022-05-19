@@ -67,9 +67,16 @@ const Docs = () => (
               When?
             </h2>
             <p className="mt-2 text-base leading-relaxed">
-              SBUDNIC will be deployed at 500km in an inclination yet to be
-              determined aboard a Falcon 9 as a secondary payload on a scheduled
-              Starlink deployment mission.
+              SBUDNIC will be deployed at 500km aboard a Falcon 9 as a secondary
+              payload on a scheduled{" "}
+              <a
+                href="https://nextspaceflight.com/launches/details/6804"
+                className="text-blue-500 hover:text-blue-400"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Starlink deployment mission on May 25th, 2022.
+              </a>
             </p>
           </div>
           <div className="p-4 mb-6 md:w-1/3 sm:mb-0">
