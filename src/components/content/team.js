@@ -54,9 +54,9 @@ const team = [
     id: 3,
     title: "Dheraj Ganjikunta",
     subtitle:
-      "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
+      "Let's go to space! What inspires me to work on SBUDNIC is the promise of 'space for everyone,' which is why I'm committed to developing the program as an open source project in record time. I'm part of Brown's class of 2022, and am studying Economics and International & Public Affairs. I'll be at McKinsey & Co in NYC after graduation. In my free time, I enjoy hiking and reading sci-fi (The Culture and The Expansre are my favorite series!)",
     category: "Program Manager",
-    position: "Program Manager",
+    position: "Lead Program Manager",
     image: dheraj,
     team: "Program Management and Public Relations",
   },
@@ -67,7 +67,7 @@ const team = [
       "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
     team: "Program Management and Public Relations",
     category: "General",
-    position: "Program Director",
+    position: "Program Manager",
     image: selia,
   },
   {
@@ -345,7 +345,7 @@ const team = [
       "Dan's background as an architect specializing in modular structures has prepared him to previsualize mechanical solutions and realize them using whatever tools necessary.",
     team: "Research and Manufacturing",
     category: "General",
-    position: "Engineering Analyst",
+    position: "Research and Manufacturing Analyst",
     image: rap,
   },
   {
@@ -355,7 +355,7 @@ const team = [
       "Mia Rollins is a video installation artist from Nashville, TN. They are in their last semester of their Sculpture MFA at the Rhode Island School of design. Their works examine the liminal space between the physical and virtual, science and magic, and memory and imagination.",
     team: "Research and Manufacturing",
     category: "General",
-    position: "Engineering Analyst",
+    position: "Research and Manufacturing Analyst",
     image: mia,
   },
   {
