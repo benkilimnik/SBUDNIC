@@ -512,9 +512,9 @@ const team = [
     title: "Miku Suga",
     subtitle:
       "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
-    category: "Program Management and Public Relations",
+    category: "General",
     position: "Program Analyst",
-    team: "General",
+    team: "Program Management and Public Relations",
     image: sbudnicNW,
   },
 ]
