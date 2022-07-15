@@ -21,7 +21,7 @@ const App = () => (
     <Route exact path="/about" component={About} />
     <Route exact path="/team" component={Team} />
     <Route exact path="/news" component={News} />
-    <Route exact path="/progress" component={Progress} />
+    {/* <Route exact path="/progress" component={Progress} /> */}
   </BrowserRouter>
 )
 
