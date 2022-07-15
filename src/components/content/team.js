@@ -81,13 +81,23 @@ const team = [
     image: benji,
   },
   {
+    id: 90,
+    title: "Miku Suga",
+    subtitle:
+      "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
+    category: "",
+    position: "Public Relations Analyst",
+    team: "Program Management and Public Relations",
+    image: sbudnicNW,
+  },
+  {
     id: 6,
     title: "Ashton Lam",
     subtitle: "",
     category: "Public Relations Analyst",
     position: "Public Relations Analyst",
     image: ashton,
-    team: "Program Management and Public Relations",
+    team: "alumni",
   },
   {
     id: 21,
@@ -505,16 +515,6 @@ const team = [
     category: "Engineer",
     position: "Engineer",
     team: "Testing",
-    image: sbudnicNW,
-  },
-  {
-    id: 90,
-    title: "Miku Suga",
-    subtitle:
-      "Committed to building and launching a low-cost CubeSat into low earth orbit in record time.",
-    category: "",
-    position: "Public Relations Analyst",
-    team: "Program Management and Public Relations",
     image: sbudnicNW,
   },
 ]
