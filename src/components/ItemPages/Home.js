@@ -112,10 +112,12 @@ const Home = () => (
             processor and AA Energizer Batteries!  */}
           </p>
           <div className="invisible py-4 text-gray-900 lg:visible">
-            <Countdown
+            <span class="text-xl md:text-2xl">{"We Launched On May 25th 2022!"}</span>
+
+            {/* <Countdown
               date={Date.now() + calcTimeDelta("2022-05-25T14:25:00").total}
               renderer={renderer}
-            />
+            /> */}
           </div>
           <div className="flex justify-center">
             <Link
