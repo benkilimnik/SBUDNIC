@@ -50,7 +50,7 @@ const ImageCard = ({ item }) => {
                 <div className="flex flex-col items-center">
                   <img
                     alt="team"
-                    className="max-h-32 sm:max-h-full sm:flex-shrink-0 sm:rounded-lg sm:w-5/12 sm:my-12 sm:h-80 sm:object-cover sm:object-center sm:mb-4"
+                    className=" lg:max-h-56 sm:flex-shrink-0 sm:rounded-lg sm:w-5/12 sm:my-12 sm:h-80 sm:object-cover sm:object-center sm:mb-4"
                     src={item.image}
                   />
                 </div>
@@ -58,7 +58,7 @@ const ImageCard = ({ item }) => {
                   <p className="my-4 text-lg leading-relaxed text-center sm:px-20 text-blueGray-500">
                     {item.position}
                   </p>
-                  <p className="my-4 overflow-y-scroll text-lg leading-relaxed text-left sm:max-h-full max-h-32 sm:px-20 text-blueGray-500">
+                  <p className="my-4 overflow-y-scroll text-lg leading-relaxed text-left lg:max-h-48 se:max-h-24 sm:px-20 text-blueGray-500">
                     {item.subtitle}
                   </p>
                 </div>
