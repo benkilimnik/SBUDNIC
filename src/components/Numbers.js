@@ -5,15 +5,16 @@ const Numbers = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="flex flex-col items-center px-8 mx-auto sm:py-12 lg:py-24">
-        <div className="flex flex-wrap content-start mt-auto mb-auto -mx-4 lg:w-1/2 sm:w-2/3 sm:pr-10">
+        
+        {/* <div className="flex flex-wrap content-start mt-auto mb-auto -mx-4 lg:w-1/2 sm:w-2/3 sm:pr-10">
           <div className="w-full px-4 mb-6 sm:p-4">
-            {/* <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">
+            <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">
                 Looking for Ham Radio Operator
               </h1>
               <div className="leading-relaxed">
                 If you are a ham radio operator and are interested in sending
                 uplink or receiving downlink data, please send us an email!
-              </div> */}
+              </div>
             <div
               class="shadow-sm border-t-4 border-secondary rounded-b px-4 py-3"
               role="alert"
@@ -40,11 +41,12 @@ const Numbers = () => {
                 </div>
               </div>
             </div>
-            {/* <h1 className="mb-2 text-xl font-medium text-gray-900 title-font">
+            <h1 className="mb-2 text-xl font-medium text-gray-900 title-font">
               Stay in the loop
-            </h1> */}
+            </h1>
           </div>
-        </div>
+        </div> 
+        */}
 
         <div className="w-full mt-6 overflow-hidden rounded-lg lg:w-6/12 sm:w-1/3 sm:mt-0">
           <div className="flex flex-col items center">
