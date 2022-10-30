@@ -23,6 +23,9 @@ module.exports = {
         // body: ["Titillium+Web"],
         body: ["Nunito"],
       },
+      screens: {
+        'se': '360px'
+      }
     },
   },
   variants: { display: ["responsive", "hover", "focus"] },

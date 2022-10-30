@@ -23,14 +23,6 @@ import {
 
 const team = [
   {
-    id: 1,
-    title: "Rick Fleeter",
-    subtitle:
-      "The resident space guy on the School of Engineering faculty since 2002. Brown AB 1976, PhD 1981 in engineering. Started building small satellites with Amsat while at Brown in the 1970s. During the 1980s and 1990s wrote several books and book chapters, taught professional courses and started a company all dedicated to making small satellites a reality. In addition to working at Brown I'm a visiting professor at La Sapienza in Rome, Italy where I live with my wife, Esther. I raced bicycles at Brown and still an avid rider and bike commuter in both countries.",
-    category: "Faculty Advisor",
-    image: rick,
-  },
-  {
     id: 2,
     title: "Marco Cross",
     subtitle:
