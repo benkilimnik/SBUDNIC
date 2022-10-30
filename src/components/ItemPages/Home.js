@@ -25,41 +25,41 @@ import {
   // sbudnic9,
   // sbudnic10,
 } from "../content/images"
-import Countdown, { calcTimeDelta } from "react-countdown"
+// import Countdown, { calcTimeDelta } from "react-countdown"
 
-const renderer = ({ days, hours, minutes, seconds, completed }) => {
-  return (
-    <div className="flex flex-col items-center text-primary lg:items-start">
-      <div className="grid grid-flow-col gap-5 pb-8 place-items-end auto-cols-max">
-        <span className="text-xl md:text-2xl ">Launch in:</span>
-        <div className="md:text-md">
-          <span className="pr-1 text-xl md:text-2xl">
-            <span>{days}</span>
-          </span>
-          days
-        </div>
-        <div className="md:text-md">
-          <span className="px-1 text-xl md:text-2xl">
-            <span>{hours}</span>
-          </span>
-          hours
-        </div>
-        <div className="md:text-md">
-          <span className="px-1 text-xl md:text-2xl">
-            <span> {minutes}</span>
-          </span>
-          min
-        </div>
-        <div className="md:text-md">
-          <span className="px-1 text-xl md:text-2xl">
-            <span>{seconds}</span>
-          </span>
-          sec
-        </div>
-      </div>
-    </div>
-  )
-}
+// const renderer = ({ days, hours, minutes, seconds, completed }) => {
+//   return (
+//     <div className="flex flex-col items-center text-primary lg:items-start">
+//       <div className="grid grid-flow-col gap-5 pb-8 place-items-end auto-cols-max">
+//         <span className="text-xl md:text-2xl ">Launch in:</span>
+//         <div className="md:text-md">
+//           <span className="pr-1 text-xl md:text-2xl">
+//             <span>{days}</span>
+//           </span>
+//           days
+//         </div>
+//         <div className="md:text-md">
+//           <span className="px-1 text-xl md:text-2xl">
+//             <span>{hours}</span>
+//           </span>
+//           hours
+//         </div>
+//         <div className="md:text-md">
+//           <span className="px-1 text-xl md:text-2xl">
+//             <span> {minutes}</span>
+//           </span>
+//           min
+//         </div>
+//         <div className="md:text-md">
+//           <span className="px-1 text-xl md:text-2xl">
+//             <span>{seconds}</span>
+//           </span>
+//           sec
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
 
 const Home = () => (
   <>
