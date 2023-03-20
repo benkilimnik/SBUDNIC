@@ -12,7 +12,7 @@ const Repository = () => (
           <div className="container flex flex-col items-center px-5 py-12 mx-auto sm:py-24 md:flex-row">
             {/* <div className="w-full h-full px-4 embed-responsive aspect-ratio-21/9"> */}
             <div className="w-full h-96">
-              A Cool Repo of Stuff
+              {/* Text Will be here */}
             </div>
           </div>
          </div>
