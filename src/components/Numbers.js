@@ -4,7 +4,7 @@ import { TwitterTimelineEmbed, TwitterFollowButton } from "react-twitter-embed"
 const Numbers = () => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="flex flex-col items-center px-8 mx-auto sm:py-12 lg:py-24">
+      <div className="flex flex-col items-center px-8 mx-auto sm:py-4 lg:py-6">
         
         {/* <div className="flex flex-wrap content-start mt-auto mb-auto -mx-4 lg:w-1/2 sm:w-2/3 sm:pr-10">
           <div className="w-full px-4 mb-6 sm:p-4">

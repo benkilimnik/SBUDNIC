@@ -225,7 +225,7 @@ const team = [
     title: "Kazen Gallman",
     subtitle:
       "",
-    team: "OBDH + PL",
+    team: "OBDH + GSEG",
     category: "",
     position: "Engineer",
     image: sbudnicNW,
