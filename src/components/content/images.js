@@ -34,6 +34,7 @@ import rap from "../../assets/rap.jpg"
 import eliot from "../../assets/eliot.jpeg"
 import roma from "../../assets/roma.png"
 import amsat from "../../assets/amsat.png"
+import kazen from "../../assets/kazen.png"
 
 export {
   roma,
@@ -72,4 +73,5 @@ export {
   maddie,
   benji,
   ashton,
+  kazen,
 }

@@ -19,6 +19,7 @@ jenn,
 gabby,
 rap,
 lorenzo,
+kazen,
 } from "../content/images"
 
 const team = [
@@ -52,16 +53,6 @@ category: "General",
 position: "Project Director",
 image: selia,
 },
-  {
-    id: 40,
-    title: "Benjamin Kilimnik",
-    subtitle:
-      "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
-    team: "Program Management and Public Relations",
-    category: "",
-    position: "Public Relations Analyst",
-    image: benji,
-  },
 {
 id: 90,
 title: "Miku Suga",
@@ -70,7 +61,7 @@ subtitle:
 category: "",
 position: "Public Relations Analyst",
 team: "Program Management and Public Relations",
-image: sbudnicNW,
+image: "https://cs.brown.edu/courses/csci1430/2022_Spring/staff_images/portrait/msuga.jpg",
 },
 {
 id: 6,
@@ -99,7 +90,7 @@ subtitle:
 team: "Testing",
 category: "",
 position: "Subsystem Managing Engineer",
-image: sbudnicNW,
+image: "https://media.licdn.com/dms/image/v2/D4E03AQH-kzxR21B34Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1695787186776?e=2147483647&v=beta&t=ZH5Wnn_UXhiCONinYYIB3QbSVx52arzQDfai5bZBOgc",
 },
 {
 id: 7,
@@ -118,7 +109,7 @@ subtitle:
 "A junior at Brown University studying computer science with a focus on systems research, data science, and web design. When I'm not coding up a hot mess in the Computer Science department, you can find me working at the Center for Computation and Visualization, researching for Systems@Brown or reading historical fiction next to a radiator.",
 team: "alumni",
 category: "",
-position: "Engineer (Thermal Control System)",
+position: "Public Relations and Engineer (Thermal Control System)",
 image: benji,
 },
 {
@@ -137,7 +128,7 @@ subtitle:
 team: "TTC + GSEG",
 category: "Telemetry, Tracking, Control",
 position: "Subsystem Managing Engineer",
-image: sbudnicNW,
+image: "https://scontent-bos5-1.xx.fbcdn.net/v/t1.6435-1/32947065_549485482111747_8112015056780132352_n.jpg?stp=dst-jpg_s480x480&_nc_cat=100&ccb=1-7&_nc_sid=e4545e&_nc_ohc=KxZnyIFZ4rwQ7kNvgHpcKqt&_nc_ht=scontent-bos5-1.xx&_nc_gid=AD-yAzi-kub-U_ux1DSn6sh&oh=00_AYAZGL7gdA1vd3nz2T5IUFSt-UcQqNJ5itmo6aSrribksg&oe=67194220",
 },
 {
 id: 10,
@@ -157,16 +148,16 @@ subtitle:
 team: "TTC + GSEG",
 category: "Telemetry, Tracking, Control",
 position: "Subsystem Managing Engineer",
-image: sbudnicNW,
+image: "https://fanchaolab.com/assets/images/1667186486781-192x192.jpg",
 },
 {
 id: 14,
 title: "Lia Lubit",
 subtitle:
 "",
-team: "TTC + GSEG",
-category: "Telemetry, Tracking, Control",
-position: "Engineer",
+team: "THERM",
+category: "",
+position: "Thermal Control System Engineer",
 image: lia,
 },
 {
@@ -205,7 +196,7 @@ id: 15,
 title: "Hammad Izhar",
 subtitle:
 "",
-team: "OBDH + PL",
+team: "alumni",
 category: "",
 position: "Engineer",
 image: sbudnicNW,
@@ -214,11 +205,11 @@ image: sbudnicNW,
 id: 56,
 title: "Kazen Gallman",
 subtitle:
-"",
-team: "OBDH + GSEG",
+"Class of '24 Studying Computer Science and Cognitive Neuroscience",
+team: "OBDH + PL",
 category: "",
 position: "Engineer",
-image: sbudnicNW,
+image: kazen,
 },
 {
 id: 16,
@@ -234,7 +225,7 @@ image: sbudnicNW,
 id: 4,
 title: "Haley Rose Flores",
 subtitle:
-"Haley Rose Flores is a first-year undergraduate student at Brown University studying Computer Science and Engineering. This is Haley’s first involvement in an engineering project at Brown University. During the summer before her senior year, Haley conducted research at the New Jersey Institute of Technology studying the process of self-assembly of multilayer graphene in water-containing impurities under the supervision of Dr. Dibakar Datta and Vidushi Sharma. As a part of the STEAM Academy throughout high school, Haley led the Green Technology House Project, which consisted of wiring a miniature house with solar panels, rechargeable batteries, and an Arduino. On the SBUDNIC team, Haley is a member of the Electrical Power System (EPS) subsystem and is responsible for designing and constructing the battery pack for the satellite alongside Brown alumnus, Shin-Ji Low.",
+"Haley Rose Flores is a class of '24 undergraduate student at Brown University studying Computer Science and Engineering. This is Haley’s first involvement in an engineering project at Brown University. During the summer before her senior year, Haley conducted research at the New Jersey Institute of Technology studying the process of self-assembly of multilayer graphene in water-containing impurities under the supervision of Dr. Dibakar Datta and Vidushi Sharma. As a part of the STEAM Academy throughout high school, Haley led the Green Technology House Project, which consisted of wiring a miniature house with solar panels, rechargeable batteries, and an Arduino. On the SBUDNIC team, Haley is a member of the Electrical Power System (EPS) subsystem and is responsible for designing and constructing the battery pack for the satellite alongside Brown alumnus, Shin-Ji Low.",
 category: "Member of the EPS subsystem",
 image: haley,
 position: "Subsystem Managing Engineer",
@@ -248,7 +239,7 @@ subtitle:
 team: "EPS",
 category: "",
 position: "Engineer",
-image: sbudnicNW,
+image: "https://media.licdn.com/dms/image/v2/C4E03AQH5hFJVQORkdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1591261780188?e=1732752000&v=beta&t=6lDiUCwItwqOTM0nRu4LGAB2Bt5f7I1y5oC-Y0bwYew",
 },
 {
 id: 24,
@@ -318,7 +309,7 @@ subtitle:
 team: "Program Management and Public Relations",
 category: "General",
 position: "Program Analyst",
-image: sbudnicNW,
+image: "https://media.licdn.com/dms/image/D4E03AQE_VYkj0TNQeA/profile-displayphoto-shrink_200_200/0/1722967362793?e=2147483647&v=beta&t=DVTTVjicxgZApsxlmgtpSmUAGHF5APLpmOGcDm4mQfg",
 },
 {
 id: 47,
@@ -328,7 +319,7 @@ subtitle:
 team: "Program Management and Public Relations",
 category: "General",
 position: "Program Analyst",
-image: sbudnicNW,
+image: "https://media.licdn.com/dms/image/v2/C4E03AQG2XofFWkuuQQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1640452733951?e=2147483647&v=beta&t=_lsXRYhoj6ZIeh35HymE0RGJFabZkjZ3xnrUj1T5Bss",
 },
 {
 id: 57,
@@ -395,10 +386,10 @@ id: 33,
 title: "Julien Cormary",
 subtitle:
 "",
-team: "STR",
+team: "THERM",
 category: "",
-position: "Subsystem Managing Engineer",
-image: sbudnicNW,
+position: "Thermal Control System Engineer",
+image: "https://media.licdn.com/dms/image/D4E03AQGDeTaUBDUXIA/profile-displayphoto-shrink_200_200/0/1718224727308?e=2147483647&v=beta&t=OM_6YuAzhZkKQnmorIhY6RlQzbkbahAN8UQQxaThUX0",
 },
 {
 id: 36,
@@ -408,7 +399,7 @@ subtitle:
 team: "STR",
 category: "",
 position: "Engineer",
-image: sbudnicNW,
+image: "https://media.licdn.com/dms/image/v2/C4D03AQFOY0t9xiFitg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1631312366460?e=1732752000&v=beta&t=_5PAOUDPkpZEO5ZGT9tDTRl5MQOZ3agggA6uQpgkHLM",
 },
 {
 id: 34,
@@ -425,7 +416,7 @@ id: 35,
 title: "Geoffrey Hazard",
 subtitle:
 "",
-team: "STR",
+team: "alumni",
 category: "",
 position: "Engineer",
 image: sbudnicNW,
@@ -497,7 +488,7 @@ subtitle:
 category: "Engineer",
 position: "Engineer",
 team: "Testing",
-image: sbudnicNW,
+image: "https://media.licdn.com/dms/image/D4E03AQH9KMfZr9CIbg/profile-displayphoto-shrink_200_200/0/1714050423254?e=2147483647&v=beta&t=8syk7jjEg4gSru1RIlqkMFVjKJJZ4hNudL7oUNfbPiU",
 },
 ]
 

@@ -25,7 +25,7 @@ module.exports = {
       },
       screens: {
         'se': '360px'
-      }
+      },
     },
   },
   variants: { display: ["responsive", "hover", "focus"] },

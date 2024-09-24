@@ -47,6 +47,20 @@ export default function Team() {
                 <ImageCard key={item.id} item={item} />
               ))}
           </div>
+
+          <div className="flex flex-col w-full mb-10 text-center">
+            <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
+              Altitude and Orbit Control
+            </h1>
+          </div>
+          <div className="flex flex-wrap mb-16 -m-2">
+            {team
+              .filter((item) => item.team === "AOCS")
+              .map((item) => (
+                <ImageCard key={item.id} item={item} />
+              ))}
+          </div>
+
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
               Research and Manufacturing
@@ -93,6 +107,19 @@ export default function Team() {
 
           <div className="flex flex-col w-full mb-10 text-center">
             <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
+              Thermals
+            </h1>
+          </div>
+          <div className="flex flex-wrap mb-16 -m-2">
+            {team
+              .filter((item) => item.team === "THERM")
+              .map((item) => (
+                <ImageCard key={item.id} item={item} />
+              ))}
+          </div>
+
+          <div className="flex flex-col w-full mb-10 text-center">
+            <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
               Electrical Power Systems
             </h1>
           </div>
@@ -123,18 +150,6 @@ export default function Team() {
           <div className="flex flex-wrap mb-16 -m-2">
             {team
               .filter((item) => item.team === "Testing")
-              .map((item) => (
-                <ImageCard key={item.id} item={item} />
-              ))}
-          </div>
-          <div className="flex flex-col w-full mb-10 text-center">
-            <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-2xl title-font">
-              Altitude and Orbit Control
-            </h1>
-          </div>
-          <div className="flex flex-wrap mb-16 -m-2">
-            {team
-              .filter((item) => item.team === "AOCS")
               .map((item) => (
                 <ImageCard key={item.id} item={item} />
               ))}

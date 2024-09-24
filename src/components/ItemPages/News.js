@@ -22,7 +22,52 @@ const Home = () => (
             src={graph}
             className="bject-center w-400 mr-4 bg-gray-100"
             ></img> */}
+
              <div className="flex flex-wrap -m-4">
+
+             <div className="p-4 xl:w-1/2 md:w-1/2">
+            <div className="p-6 bg-gray-100 rounded-lg">
+              <img
+                className="object-cover object-center w-full h-80 mb-6 rounded"
+                src={"https://gizmodo.com/app/uploads/2024/09/SBUDNIC-student-satellite_r-1400x932.jpg"}
+                alt="content"
+              />
+              <h3 className="text-xs font-medium tracking-widest text-primary title-font">
+                Article
+              </h3>
+              <h2 className="mb-4 text-lg font-medium text-gray-900 title-font">
+              Gizmodo Science Fair: A $10,000 Student-Built Satellite Could Be the Future of Space Exploration
+              </h2>
+
+              <b className="text-base leading-relaxed mb-4">
+              A team of college students built the SBUDNIC satellite using off-the-shelf components, including AA batteries.
+              </b>
+
+              <p className="text-base leading-relaxed">
+
+              </p>
+              <a
+                href="https://gizmodo.com/science-fair-sbudnic-student-satellite-1851404135"
+                className="inline-flex items-center mt-3 text-red-600"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
           <div className="p-4 xl:w-1/2 md:w-1/2">
             <div className="p-6 bg-gray-100 rounded-lg">
               <img
