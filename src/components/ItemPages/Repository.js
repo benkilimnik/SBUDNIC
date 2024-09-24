@@ -2,7 +2,6 @@ import React from "react"
 import Footer from "../Footer"
 import git from "../../assets/gitlibrary.png"
 import repo from "../../assets/repolibrary.png"
-import { useHistory } from 'react-router-dom'
 
 const Repository = () => (
   <section className="text-gray-600 body-font">
@@ -23,7 +22,7 @@ const Repository = () => (
                 <img
                   className="object-cover object-center w-full h-80 mb-6 rounded repoImage"
                   src={repo}
-                  alt="Image of File Repository"
+                  alt="File Repository"
                 />
           
                 <b className="text-base leading-relaxed mb-4">
@@ -39,7 +38,7 @@ const Repository = () => (
                 <img
                   className="object-cover object-center w-full h-80 mb-6 rounded repoImage"
                   src={git}
-                  alt="Image of Github Repository"
+                  alt="Github Repository"
                 />
           
                 <b className="text-base leading-relaxed mb-4">
