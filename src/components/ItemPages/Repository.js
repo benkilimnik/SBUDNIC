@@ -1,7 +1,6 @@
 import React from "react"
 import Footer from "../Footer"
-import git from "../../assets/gitlibrary.png"
-import repo from "../../assets/repolibrary.png"
+import {git, repo} from "../content/images"
 
 const Repository = () => (
   <section className="text-gray-600 body-font">

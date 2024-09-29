@@ -35,6 +35,8 @@ import eliot from "../../assets/eliot.jpeg"
 import roma from "../../assets/roma.png"
 import amsat from "../../assets/amsat.png"
 import kazen from "../../assets/kazen.png"
+import git from "../../assets/gitlibrary.png"
+import repo from "../../assets/repolibrary.png"
 
 export {
   roma,
@@ -74,4 +76,6 @@ export {
   benji,
   ashton,
   kazen,
+  git,
+  repo
 }
