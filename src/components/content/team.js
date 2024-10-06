@@ -205,7 +205,7 @@ image: sbudnicNW,
 id: 56,
 title: "Kazen Gallman",
 subtitle:
-"Class of '24 Studying Computer Science and Cognitive Neuroscience",
+"Class of '24, Studied Computer Science and Cognitive Neuroscience",
 team: "OBDH + PL",
 category: "",
 position: "Engineer",
